@@ -1,0 +1,1240 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+#u0 {
+    position:absolute;
+    left:57px;
+    top:71px;
+    width:500px;
+    height:145px
+}
+
+.u1_normal {
+    background-image: url('../待确认面试列表_files/u1_normal.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:33px;
+    height:36px;
+}
+
+#u1_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:39px;
+    height:42px;
+}
+
+.u2 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:29px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../待确认面试列表_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:33px;
+    top:0px;
+    width:55px;
+    height:36px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:61px;
+    height:42px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:51px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../待确认面试列表_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:88px;
+    top:0px;
+    width:81px;
+    height:36px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:87px;
+    height:42px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:77px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../待确认面试列表_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:169px;
+    top:0px;
+    width:72px;
+    height:36px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:78px;
+    height:42px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:68px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../待确认面试列表_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:241px;
+    top:0px;
+    width:82px;
+    height:36px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:42px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../待确认面试列表_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:323px;
+    top:0px;
+    width:78px;
+    height:36px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:84px;
+    height:42px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:74px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../待确认面试列表_files/u13_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:401px;
+    top:0px;
+    width:94px;
+    height:36px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:100px;
+    height:42px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:90px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../待确认面试列表_files/u15_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:0px;
+    top:36px;
+    width:33px;
+    height:26px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:39px;
+    height:32px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:29px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../待确认面试列表_files/u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:33px;
+    top:36px;
+    width:55px;
+    height:26px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:61px;
+    height:32px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:51px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../待确认面试列表_files/u19_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:88px;
+    top:36px;
+    width:81px;
+    height:26px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:87px;
+    height:32px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:77px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../待确认面试列表_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:169px;
+    top:36px;
+    width:72px;
+    height:26px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:78px;
+    height:32px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:68px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../待确认面试列表_files/u23_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:241px;
+    top:36px;
+    width:82px;
+    height:26px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:32px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../待确认面试列表_files/u25_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:323px;
+    top:36px;
+    width:78px;
+    height:26px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:84px;
+    height:32px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:74px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../待确认面试列表_files/u27_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:401px;
+    top:36px;
+    width:94px;
+    height:26px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:100px;
+    height:32px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:90px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../待确认面试列表_files/u15_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:0px;
+    top:62px;
+    width:33px;
+    height:26px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:39px;
+    height:32px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:29px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../待确认面试列表_files/u17_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:33px;
+    top:62px;
+    width:55px;
+    height:26px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:61px;
+    height:32px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:51px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33_normal {
+    background-image: url('../待确认面试列表_files/u19_normal.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:88px;
+    top:62px;
+    width:81px;
+    height:26px;
+}
+
+#u33_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:87px;
+    height:32px;
+}
+
+.u34 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:77px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_normal {
+    background-image: url('../待确认面试列表_files/u21_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:169px;
+    top:62px;
+    width:72px;
+    height:26px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:78px;
+    height:32px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:68px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../待确认面试列表_files/u23_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:241px;
+    top:62px;
+    width:82px;
+    height:26px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:32px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39_normal {
+    background-image: url('../待确认面试列表_files/u25_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:323px;
+    top:62px;
+    width:78px;
+    height:26px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:84px;
+    height:32px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:74px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_normal {
+    background-image: url('../待确认面试列表_files/u27_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:401px;
+    top:62px;
+    width:94px;
+    height:26px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:100px;
+    height:32px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:90px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_normal {
+    background-image: url('../待确认面试列表_files/u15_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:0px;
+    top:88px;
+    width:33px;
+    height:26px;
+}
+
+#u43_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:39px;
+    height:32px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:29px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../待确认面试列表_files/u17_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:33px;
+    top:88px;
+    width:55px;
+    height:26px;
+}
+
+#u45_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:61px;
+    height:32px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:51px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47_normal {
+    background-image: url('../待确认面试列表_files/u19_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:88px;
+    top:88px;
+    width:81px;
+    height:26px;
+}
+
+#u47_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:87px;
+    height:32px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:77px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../待确认面试列表_files/u21_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:169px;
+    top:88px;
+    width:72px;
+    height:26px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:78px;
+    height:32px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:68px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51_normal {
+    background-image: url('../待确认面试列表_files/u23_normal.png');
+}
+
+.u51_container {
+    position:absolute;
+    left:241px;
+    top:88px;
+    width:82px;
+    height:26px;
+}
+
+#u51_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:32px;
+}
+
+.u52 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53_normal {
+    background-image: url('../待确认面试列表_files/u25_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:323px;
+    top:88px;
+    width:78px;
+    height:26px;
+}
+
+#u53_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:84px;
+    height:32px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:74px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55_normal {
+    background-image: url('../待确认面试列表_files/u27_normal.png');
+}
+
+.u55_container {
+    position:absolute;
+    left:401px;
+    top:88px;
+    width:94px;
+    height:26px;
+}
+
+#u55_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:100px;
+    height:32px;
+}
+
+.u56 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:90px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57_normal {
+    background-image: url('../待确认面试列表_files/u15_normal.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:0px;
+    top:114px;
+    width:33px;
+    height:26px;
+}
+
+#u57_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:39px;
+    height:32px;
+}
+
+.u58 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:29px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../待确认面试列表_files/u17_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:33px;
+    top:114px;
+    width:55px;
+    height:26px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:61px;
+    height:32px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:51px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../待确认面试列表_files/u19_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:88px;
+    top:114px;
+    width:81px;
+    height:26px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:87px;
+    height:32px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:77px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63_normal {
+    background-image: url('../待确认面试列表_files/u21_normal.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:169px;
+    top:114px;
+    width:72px;
+    height:26px;
+}
+
+#u63_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:78px;
+    height:32px;
+}
+
+.u64 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:68px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65_normal {
+    background-image: url('../待确认面试列表_files/u23_normal.png');
+}
+
+.u65_container {
+    position:absolute;
+    left:241px;
+    top:114px;
+    width:82px;
+    height:26px;
+}
+
+#u65_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:32px;
+}
+
+.u66 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67_normal {
+    background-image: url('../待确认面试列表_files/u25_normal.png');
+}
+
+.u67_container {
+    position:absolute;
+    left:323px;
+    top:114px;
+    width:78px;
+    height:26px;
+}
+
+#u67_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:84px;
+    height:32px;
+}
+
+.u68 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:74px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69_normal {
+    background-image: url('../待确认面试列表_files/u27_normal.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:401px;
+    top:114px;
+    width:94px;
+    height:26px;
+}
+
+#u69_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:100px;
+    height:32px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:90px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71 {
+    position:absolute;
+    left:57px;
+    top:25px;
+    width:100px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+

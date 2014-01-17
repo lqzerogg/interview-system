@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+	<head>
+		<title>添加信息</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="static/bootstrap-theme.css">		
+		<link rel="stylesheet" href="static/bootstrap.css">		
+		<link rel="stylesheet" href="static/base.css">
+	</head>
+	<body>
+		<div class="header jumbotron">
+			<h1>招聘系统</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 navigator">                    
+		            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
+		                <li class="link active">
+		                    <a href="#">社招信息录入</a>
+		                </li>
+		                <li class="link">
+		                    <a href="#">校招信息录入</a>
+		                </li>
+		                <li class="link">
+		                    <a href="#">等该提交面试确认列表</a>
+		                </li>			                		            
+		                <li class="link">
+		                    <a href="#">等待社招面试排程</a>
+		                </li>		           
+		                <li class="link">
+		                    <a href="#">等待校招面试排程</a>
+		                </li>			                		   
+		                <li class="link">
+		                    <a href="#">信息列表</a>
+		                </li>		 
+		                <li class="link">
+		                    <a href="#">查看详情，校招</a>
+		                </li>		       
+		                <li class="link">
+		                    <a href="#">查看详情，社招</a>
+		                </li>		    
+		                <li class="link">
+		                    <a href="#">修改状态</a>
+		                </li>			                
+		            </ul>            
+		        </div>
+			</div>
+		</div>		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-4">
+					<form class="form-horizontal" role="form">
+					  <div class="form-group">
+					    <label for="name" class="col-sm-2 control-label">姓名</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" name="name" id="name" placeholder="姓名" required="required">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="age" class="col-sm-2 control-label">年龄</label>
+					    <div class="col-sm-10">
+					      <input type="number" class="form-control" name="age" id="age" placeholder="21" required="required">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label class="col-sm-2 control-label">性别</label>
+					    <div class="col-sm-10">
+					    	<label><input type="radio" value="男" checked="checked" name="gender">男性</label>
+					    	<label><input type="radio" value="女" name="gender">女性</label>					      
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="marriage" class="col-sm-2 control-label">婚育状况</label>
+					    <div class="col-sm-10">
+					      <select name="marriage" id="marriage" class="form-control" required="required">
+					      		<option value="1">未婚</option>
+					      		<option value="2">已婚</option>
+					      		<option value="3">离婚</option>
+					      		<option value="4">丧偶</option>
+					      </select>
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="department" class="col-sm-2 control-label">应聘部门</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" name="department" id="department" placeholder="技术部" required="required">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="education" class="col-sm-2 control-label">学历</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" name="education" id="education" placeholder="学历" required="required">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="final-school" class="col-sm-2 control-label">最终毕业院校</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" name="final_school" id="final-school" placeholder="北京大学" required="required">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="college" class="col-sm-2 control-label">本科毕业院校</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" name="college" id="college" placeholder="北京大学" required="required">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="name" class="col-sm-2 control-label">姓名</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control" name="name" id="name" placeholder="name" required="required">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <div class="col-sm-offset-2 col-sm-10">
+					      <div class="checkbox">
+					        <label>
+					          <input type="checkbox"> Remember me
+					        </label>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <div class="col-sm-offset-2 col-sm-10">
+					      <button type="submit" class="btn btn-default">Sign in</button>
+					    </div>
+					  </div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="static/jquery.js"></script>
+		<script src="static/bootstrap.js"></script>
+	</body>
+</html>

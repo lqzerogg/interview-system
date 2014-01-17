@@ -1,0 +1,15 @@
+.navigator {
+	position: absolute;	
+}
+.header {
+	text-align: center;
+}
+.affix-top {
+	top: 210px;
+}
+.affix {
+	top: 100px;
+}
+.affix-bottom {
+	
+}
