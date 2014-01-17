@@ -4,6 +4,9 @@
 .header {
 	text-align: center;
 }
+.content {
+	margin-bottom: 200px;
+}
 .affix-top {
 	top: 210px;
 }
@@ -11,5 +14,16 @@
 	top: 100px;
 }
 .affix-bottom {
-	
+
+}
+.radio {
+	display: inline-block;
+	margin-right: 10px;
+}
+.right-top {
+	position: absolute;
+	right: 0;
+}
+textarea {
+	width: 100%;
 }
