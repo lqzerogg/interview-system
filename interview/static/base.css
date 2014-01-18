@@ -27,3 +27,6 @@
 textarea {
 	width: 100%;
 }
+.click-enter:hover {
+	cursor: pointer;
+}
