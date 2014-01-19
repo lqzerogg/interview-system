@@ -9,21 +9,28 @@
 	</head>
 	<body>
 		<div class="header jumbotron">
-			<h1>招聘系统</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="http://www.lightinthebox.com/includes/templates/dev_v2/css/images/sprite/logo.png" width="150" height="46" alt="Lightinthebox">
+						<h1>招聘系统</h1>
+					</div>
+				</div>
+			</div>			
 		</div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2 navigator">                    
 		            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
 		                <li class="link">
-		                    <a href="#">面试确认列表</a>
+		                    <a href="interview_confirm_list.html">面试确认列表</a>
 		                </li>		 
 		                  
-		                <li class="link active"> 
-		                    <a href="#">社招面试等待列表</a>
+		                <li class="link"> 
+		                    <a href="interview_waiting_list.html">社招面试等待列表</a>
 		                </li>		    
 		                <li class="link">
-		                    <a href="#">校招面试等待列表</a>
+		                    <a href="interview_waiting_list_college.html">校招面试等待列表</a>
 		                </li>		    	    	                
 		            </ul>            
 		        </div>
@@ -31,7 +38,7 @@
 		</div>		
 		<div class="container content">
 			<div class="row">
-				<div class="col-md-7 col-md-offset-3">
+				<div class="col-md-8 col-md-offset-2">
 					<form class="form-horizontal" role="form" action="">
 					  
 					  <div class="form-group">
@@ -142,7 +149,7 @@
 					  <div class="form-group">
 					    <label for="ceo-time" class="col-sm-2 control-label">安排CEO面试</label>
 					    <div class="col-sm-10">
-					      <input value="2012-12-22" disabled="disabled" type="date" class="form-control" name="ceo_time" id="ceo-time" required="required">
+					      <input value="2012-12-22T10:00" disabled="disabled" type="datetime-local" class="form-control" name="ceo_time" id="ceo-time" required="required">
 					    </div>
 					  </div>
 					  
@@ -176,7 +183,7 @@
 					</form>
 				</div>
 				<div class="col-md-2 right-top">
-					<a href="#" class="btn btn-default">返回</a>
+					<a href="#" class="btn btn-default back">返回</a>
 				</div>
 			</div>
 

@@ -22,7 +22,7 @@
 			<div class="row">
 				<div class="col-md-2 navigator">                    
 		            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
-		                <li class="link">
+		                <li class="link active">
 		                    <a href="add_interviewee.html">社招信息录入</a>
 		                </li>
 		                <li class="link">
@@ -46,20 +46,20 @@
 		</div>		
 		<div class="container content">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
+				<div class="col-md-10 col-md-offset-2">
 					<form class="form-horizontal" role="form">
 					  
 					  <div class="form-group">
 					    <label for="name" class="col-sm-2 control-label">姓名</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="name" id="name" placeholder="姓名" required="required" value="张三">
+					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="name" id="name" placeholder="姓名" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="age" class="col-sm-2 control-label">年龄</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="number" class="form-control" name="age" id="age" placeholder="21" required="required" value="22">
+					      <input formnovalidate="formnovalidate" type="number" class="form-control" name="age" id="age" placeholder="21" required="required">
 					    </div>
 					  </div>
 					  
@@ -67,7 +67,7 @@
 					    <label class="col-sm-2 control-label">性别</label>
 					    <div class="col-sm-10">
 					    	<div class="radio">
-					    		<label><input formnovalidate="formnovalidate" type="radio" value="男" checked="checked" name="gender" checked="checked">男性</label>					    							      
+					    		<label><input formnovalidate="formnovalidate" type="radio" value="男" checked="checked" name="gender">男性</label>					    							      
 					    	</div>					    	
 					    	<div class="radio">
 					    		<label><input formnovalidate="formnovalidate" type="radio" value="女" name="gender">女性</label>
@@ -79,7 +79,7 @@
 					    <label for="marriage" class="col-sm-2 control-label">婚育状况</label>
 					    <div class="col-sm-10">
 					      <select name="marriage" id="marriage" class="form-control" required="required">
-					      		<option value="1" selected="selected">未婚</option>
+					      		<option value="1">未婚</option>
 					      		<option value="2">已婚</option>
 					      		<option value="3">离婚</option>
 					      		<option value="4">丧偶</option>
@@ -90,91 +90,91 @@
 					  <div class="form-group">
 					    <label for="department" class="col-sm-2 control-label">应聘部门</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="department" id="department" placeholder="技术部" required="required" value="技术部">
+					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="department" id="department" placeholder="技术部" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="position" class="col-sm-2 control-label">应聘职位</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="position" id="position" placeholder="php研发工程师" required="required" value="php研发工程师">
+					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="position" id="position" placeholder="php研发工程师" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="level" class="col-sm-2 control-label">职位级别</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="level" id="level" placeholder="8-1" required="required" value="9-1">
+					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="level" id="level" placeholder="8-1" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="education" class="col-sm-2 control-label">学历</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="education" id="education" placeholder="学历" required="required" value="本科">
+					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="education" id="education" placeholder="学历" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="final-school" class="col-sm-2 control-label">最终毕业院校</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="final_school" id="final-school" placeholder="北京大学" required="required" value="北京大学">
+					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="final_school" id="final-school" placeholder="北京大学" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="college" class="col-sm-2 control-label">本科毕业院校</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="college" id="college" placeholder="北京大学" required="required" value="北京大学">
+					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="college" id="college" placeholder="北京大学" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="company" class="col-sm-2 control-label">目前任职公司</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="company" id="company" placeholder="兰亭集势" required="required" value="兰亭集势">
+					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="company" id="company" placeholder="兰亭集势" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="place" class="col-sm-2 control-label">面试地点</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="place" id="place" placeholder="北京" required="required" value="北京">
+					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="place" id="place" placeholder="北京" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="method" class="col-sm-2 control-label">面试方式</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="method" id="method" placeholder="会面" required="required" value="面谈">
+					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="method" id="method" placeholder="会面" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="interviewer" class="col-sm-2 control-label">面试官</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="interviewer" id="interviewer" placeholder="郭去疾" required="required" value="张良">
+					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="interviewer" id="interviewer" placeholder="郭去疾" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="time" class="col-sm-2 control-label">时间</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="date" class="form-control" name="time" id="time" required="required" value="2012-12-22">
+					      <input formnovalidate="formnovalidate" type="date" class="form-control" name="time" id="time" required="required">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="evaluation" class="col-sm-2 control-label">评价</label>
 					    <div class="col-sm-10">
-					      <textarea name="evaluation" id="evaluation" rows="5" required="required">很好非常好</textarea>
+					      <textarea name="evaluation" id="evaluation" rows="5" required="required"></textarea>
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
 					    <label for="ceo-time" class="col-sm-2 control-label">安排CEO面试</label>
 					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="datetime-local" class="form-control" name="ceo_time" id="ceo-time" value="2012-12-22T10:00">
+					      <input formnovalidate="formnovalidate" type="datetime-local" class="form-control" name="ceo_time" id="ceo-time">
 					    </div>
 					  </div>					  
 					  
@@ -184,9 +184,6 @@
 					    </div>
 					  </div>
 					</form>
-				</div>
-				<div class="col-md-2 right-top">					
-					<a href="#" class="btn btn-default back">返回</a>
 				</div>
 			</div>
 		</div>

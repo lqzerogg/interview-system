@@ -1,8 +1,15 @@
 .navigator {
 	position: absolute;	
+	margin-left: -15px;	
 }
-.header {
-	text-align: center;
+.header img {
+	float: left;
+	margin-right: 10px;
+}
+.header h1 {
+	margin: 0;
+	font-size: 32px;
+	font-family: "隶书", sans-serif;
 }
 .content {
 	margin-bottom: 200px;
@@ -27,6 +34,15 @@
 textarea {
 	width: 100%;
 }
-.click-enter:hover {
+.click-enter:hover tr {
 	cursor: pointer;
+}
+.filter-form {
+	margin-bottom: 50px;
+}
+.filter-form .row {
+	margin-bottom: 10px;
+}
+.commit-container {
+	margin-bottom: 10px;
 }
