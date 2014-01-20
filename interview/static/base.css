@@ -1,6 +1,13 @@
-.navigator {
-	position: absolute;	
-	margin-left: -15px;	
+/* 基本样式 */
+ul, dl, ol {
+	list-style: none;
+	padding-left: 0;
+}
+
+/* 头部logo样式 */
+
+.header {
+	padding: 20px 0;
 }
 .header img {
 	float: left;
@@ -11,6 +18,12 @@
 	font-size: 32px;
 	font-family: "隶书", sans-serif;
 }
+
+/* 导航样式 */
+.navigator {
+	position: absolute;	
+	margin-left: -15px;	
+}
 .content {
 	margin-bottom: 200px;
 }
@@ -20,9 +33,8 @@
 .affix {
 	top: 100px;
 }
-.affix-bottom {
 
-}
+/* 表单样式 */
 .radio {
 	display: inline-block;
 	margin-right: 10px;
@@ -34,9 +46,7 @@
 textarea {
 	width: 100%;
 }
-.click-enter:hover tr {
-	cursor: pointer;
-}
+/* 筛选表单样式 */
 .filter-form {
 	margin-bottom: 50px;
 }
@@ -45,4 +55,110 @@ textarea {
 }
 .commit-container {
 	margin-bottom: 10px;
+}
+
+/* 表格样式 */
+.click-enter:hover tr {
+	cursor: pointer;
+}
+
+/* 面试者数据信息 */
+.infos .title {
+	float: left;
+	font-weight: bold;
+	text-align: right;
+	display: block;
+	width: 130px;
+}
+.infos .substance {
+	margin-left: 145px;
+}
+.infos p {
+	margin-bottom: 0;
+}
+.panel .radio+.radio {
+	margin-top: 10px;
+}
+
+/* 响应式样式 */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+
+
+/* small and Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+	/* 导航样式 */
+	.navigator-container {
+		background: #eee;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 10;
+	}
+	.navigator {		
+		margin-left: -15px;	
+		top: 0;						
+	}	
+	.navigator .link {
+		display: inline-block;
+		width: auto;
+		float: left;
+		z-index: 10;		
+	}
+	.affix-top {
+		top: 0;
+	}
+	.affix {
+		top: 0;
+	}
+
+	/* 表单样式 */
+	.filter-form .row .col-md-2, .filter-form .row .col-md-3 {
+		margin-bottom: 10px;
+	}
+	.form-inline select.form-control {
+		width: 100%;
+	}
+	
+	/* 返回样式 */
+	.right-top {
+		position: fixed;
+		right: 0;
+		top: 160px;
+	}
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	/* 导航样式 */
+	.navigator-container {
+		height: 90px;
+	}
+	/* 主题样式 */
+	.container.content {
+		margin-top: 110px;
+	}		
+	/* 返回样式 */
+	.right-top {
+		top: 55px;
+		z-index: 11;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 769px) and (max-width: 992px) { 
+	/* 导航样式 */
+	.navigator-container {
+		height: 65px;
+	}
+	/* 主题样式 */
+	.header {
+		padding-top: 65px;
+	}	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 993px) {
+
 }

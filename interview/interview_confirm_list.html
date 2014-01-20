@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="static/base.css">
 	</head>
 	<body>
-		<div class="header jumbotron">
+		<div class="header jumbotron hidden-xs">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -18,26 +18,29 @@
 				</div>
 			</div>			
 		</div>
-		<div class="container">
+		<div class="navigator-container">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 navigator">                    
+			            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
+			                <li class="link active">
+			                    <a href="interview_confirm_list.html">面试确认列表</a>
+			                </li>		 
+			                <li class="link">
+			                    <a href="interview_waiting_list.html">社招面试等待列表</a>
+			                </li>		    
+			                <li class="link">
+			                    <a href="interview_waiting_list_college.html">校招面试等待列表</a>
+			                </li>		    	                
+			            </ul>            
+			        </div>
+				</div>
+			</div>		
+		</div>
+		<div class="container content">
 			<div class="row">
-				<div class="col-md-2 navigator">                    
-		            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
-		                <li class="link active">
-		                    <a href="interview_confirm_list.html">面试确认列表</a>
-		                </li>		 
-		                <li class="link">
-		                    <a href="interview_waiting_list.html">社招面试等待列表</a>
-		                </li>		    
-		                <li class="link">
-		                    <a href="interview_waiting_list_college.html">校招面试等待列表</a>
-		                </li>		    	                
-		            </ul>            
-		        </div>
-			</div>
-		</div>		
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-2">
+				<div class="col-md-10 col-md-offset-2 table-responsive">					
 					<table class="table table-hover table-condensed click-enter info-list">
 						<thead>
 							<tr>

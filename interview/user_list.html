@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="static/base.css">
 	</head>
 	<body>
-		<div class="header jumbotron">
+		<div class="header jumbotron hidden-xs">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -18,21 +18,24 @@
 				</div>
 			</div>			
 		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-2 navigator">                    
-		            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
-		                <li class="link">
-		                    <a href="add_user.html">新添用户</a>
-		                </li>  		                
-		                <li class="link active">
-		                    <a href="user_list.html">用户权限列表</a>
-		                </li>  		                
-		            </ul>            
-		        </div>
-			</div>
-		</div>		
-		<div class="container">
+		<div class="navigator-container">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 navigator">                    
+			            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
+			                <li class="link">
+			                    <a href="add_user.html">新添用户</a>
+			                </li>  		                
+			                <li class="link active">
+			                    <a href="user_list.html">用户权限列表</a>
+			                </li>  		                
+			            </ul>            
+			        </div>
+				</div>
+			</div>		
+		</div>
+		<div class="container content">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-2">
 				<form action="interview_scheduling.html" class="form-inline filter-form" role="form">
@@ -84,31 +87,34 @@
 						</div>						
 					</form>
 					<form action="add_user.html" class="user-form">
-						<table class="table table-hover table-condensed info-list">
-							<thead>
-								<tr>
-									<th>用户ID</th>
-									<th>状态</th>									
-									<th>账号</th>
-									<th>姓名</th>
-									<th>角色</th>
-									<th>操作</th>				
-								</tr>											
-							</thead>
-							<tbody>
-								<tr data-href="#">
-									<td>1</td>	
-									<td>启用</td>	
-									<td>lqzerogg</td>		
-									<td>郭去疾</td>
-									<td>CEO</td>
-									<td>
-										<a href="edit_user.html?id=1" class="btn btn-info btn-xs edit">编辑</a>
-										<a href="reset.php?id=1" class="btn btn-warning btn-xs reset-password">重置密码</a>										
-									</td>
-								</tr>
-							</tbody>
-						</table>
+						<div class="table-responsive">
+							
+							<table class="table table-hover table-condensed info-list">
+								<thead>
+									<tr>
+										<th>用户ID</th>
+										<th>状态</th>									
+										<th>账号</th>
+										<th>姓名</th>
+										<th>角色</th>
+										<th>操作</th>				
+									</tr>											
+								</thead>
+								<tbody>
+									<tr data-href="#">
+										<td>1</td>	
+										<td>启用</td>	
+										<td>lqzerogg</td>		
+										<td>郭去疾</td>
+										<td>CEO</td>
+										<td>
+											<a href="edit_user.html?id=1" class="btn btn-info btn-xs edit">编辑</a>
+											<a href="reset.php?id=1" class="btn btn-warning btn-xs reset-password">重置密码</a>										
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
 					</form>
 				</div>
 			</div>
