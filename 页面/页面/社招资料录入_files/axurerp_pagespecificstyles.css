@@ -25,7 +25,7 @@ div {
 .u0 {
     position:absolute;
     left:81px;
-    top:120px;
+    top:143px;
     width:150px;
     height:16px;
     ;
@@ -39,7 +39,7 @@ div {
 .u1 {
     position:absolute;
     left:148px;
-    top:117px;
+    top:140px;
     width:121px;
     height:22px;
     ;
@@ -61,7 +61,7 @@ div {
 .u2_container {
     position:absolute;
     left:148px;
-    top:45px;
+    top:68px;
     width:121px;
     height:22px;
 }
@@ -95,7 +95,7 @@ div {
 .u4_container {
     position:absolute;
     left:148px;
-    top:93px;
+    top:116px;
     width:121px;
     height:22px;
 }
@@ -129,7 +129,7 @@ div {
 .u6_container {
     position:absolute;
     left:148px;
-    top:69px;
+    top:92px;
     width:121px;
     height:22px;
 }
@@ -163,7 +163,7 @@ div {
 .u8_container {
     position:absolute;
     left:148px;
-    top:189px;
+    top:212px;
     width:121px;
     height:22px;
 }
@@ -197,7 +197,7 @@ div {
 .u10_container {
     position:absolute;
     left:148px;
-    top:213px;
+    top:236px;
     width:121px;
     height:22px;
 }
@@ -231,7 +231,7 @@ div {
 .u12_container {
     position:absolute;
     left:148px;
-    top:237px;
+    top:260px;
     width:121px;
     height:22px;
 }
@@ -265,7 +265,7 @@ div {
 .u14_container {
     position:absolute;
     left:148px;
-    top:261px;
+    top:284px;
     width:121px;
     height:22px;
 }
@@ -299,7 +299,7 @@ div {
 .u16_container {
     position:absolute;
     left:148px;
-    top:285px;
+    top:308px;
     width:121px;
     height:22px;
 }
@@ -329,7 +329,7 @@ div {
 .u18 {
     position:absolute;
     left:107px;
-    top:48px;
+    top:71px;
     width:31px;
     height:16px;
     ;
@@ -343,7 +343,7 @@ div {
 .u19 {
     position:absolute;
     left:106px;
-    top:96px;
+    top:119px;
     width:150px;
     height:16px;
     ;
@@ -357,7 +357,7 @@ div {
 .u20 {
     position:absolute;
     left:107px;
-    top:74px;
+    top:97px;
     width:31px;
     height:16px;
     ;
@@ -371,7 +371,7 @@ div {
 .u21 {
     position:absolute;
     left:81px;
-    top:144px;
+    top:167px;
     width:150px;
     height:16px;
     ;
@@ -385,7 +385,7 @@ div {
 .u22 {
     position:absolute;
     left:81px;
-    top:168px;
+    top:191px;
     width:150px;
     height:16px;
     ;
@@ -399,7 +399,7 @@ div {
 .u23 {
     position:absolute;
     left:81px;
-    top:194px;
+    top:217px;
     width:150px;
     height:16px;
     ;
@@ -413,7 +413,7 @@ div {
 .u24 {
     position:absolute;
     left:106px;
-    top:216px;
+    top:239px;
     width:32px;
     height:16px;
     ;
@@ -427,7 +427,7 @@ div {
 .u25 {
     position:absolute;
     left:58px;
-    top:239px;
+    top:262px;
     width:150px;
     height:16px;
     ;
@@ -441,7 +441,7 @@ div {
 .u26 {
     position:absolute;
     left:58px;
-    top:264px;
+    top:287px;
     width:150px;
     height:16px;
     ;
@@ -455,7 +455,7 @@ div {
 .u27 {
     position:absolute;
     left:58px;
-    top:288px;
+    top:311px;
     width:150px;
     height:16px;
     ;
@@ -469,8 +469,8 @@ div {
 .u28 {
     position:absolute;
     left:17px;
-    top:360px;
-    width:150px;
+    top:489px;
+    width:121px;
     height:16px;
     ;
     ;
@@ -487,7 +487,7 @@ div {
 .u29_container {
     position:absolute;
     left:148px;
-    top:141px;
+    top:164px;
     width:121px;
     height:22px;
 }
@@ -521,7 +521,7 @@ div {
 .u31_container {
     position:absolute;
     left:148px;
-    top:165px;
+    top:188px;
     width:121px;
     height:22px;
 }
@@ -555,7 +555,7 @@ div {
 .u33_container {
     position:absolute;
     left:148px;
-    top:357px;
+    top:486px;
     width:121px;
     height:22px;
 }
@@ -589,7 +589,7 @@ div {
 .u35_container {
     position:absolute;
     left:148px;
-    top:381px;
+    top:534px;
     width:121px;
     height:22px;
 }
@@ -618,22 +618,8 @@ div {
 
 .u37 {
     position:absolute;
-    left:55px;
-    top:459px;
-    width:82px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u38 {
-    position:absolute;
-    left:182px;
-    top:511px;
+    left:66px;
+    top:1316px;
     width:87px;
     height:23px;
     ;
@@ -648,7 +634,7 @@ div {
     
 }
 
-.u39 {
+.u38 {
     position:absolute;
     left:17px;
     top:13px;
@@ -662,19 +648,19 @@ div {
     word-wrap:break-word;
 }
 
-.u40_normal {
+.u39_normal {
     background-image: url('../社招资料录入_files/u2_normal.png');
 }
 
-.u40_container {
+.u39_container {
     position:absolute;
     left:148px;
-    top:309px;
+    top:438px;
     width:121px;
     height:22px;
 }
 
-#u40_img {
+#u39_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -682,7 +668,7 @@ div {
     height:28px;
 }
 
-.u41 {
+.u40 {
     position:absolute;
     left:2px;
     top:3px;
@@ -696,10 +682,10 @@ div {
     word-wrap:break-word;
 }
 
-.u42 {
+.u41 {
     position:absolute;
     left:58px;
-    top:312px;
+    top:441px;
     width:80px;
     height:16px;
     ;
@@ -710,19 +696,19 @@ div {
     word-wrap:break-word;
 }
 
-.u43_normal {
+.u42_normal {
     background-image: url('../社招资料录入_files/u2_normal.png');
 }
 
-.u43_container {
+.u42_container {
     position:absolute;
     left:148px;
-    top:333px;
+    top:462px;
     width:121px;
     height:22px;
 }
 
-#u43_img {
+#u42_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -730,11 +716,25 @@ div {
     height:28px;
 }
 
-.u44 {
+.u43 {
     position:absolute;
     left:2px;
     top:3px;
     width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44 {
+    position:absolute;
+    left:58px;
+    top:465px;
+    width:80px;
     height:16px;
     ;
     ;
@@ -746,23 +746,9 @@ div {
 
 .u45 {
     position:absolute;
-    left:58px;
-    top:336px;
-    width:80px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u46 {
-    position:absolute;
     left:29px;
-    top:413px;
-    width:150px;
+    top:566px;
+    width:109px;
     height:16px;
     ;
     ;
@@ -772,19 +758,19 @@ div {
     word-wrap:break-word;
 }
 
-.u47_normal {
-    background-image: url('../社招资料录入_files/u47_normal.png');
+.u46_normal {
+    background-image: url('../社招资料录入_files/u46_normal.png');
 }
 
-.u47_container {
+.u46_container {
     position:absolute;
     left:148px;
-    top:406px;
+    top:559px;
     width:217px;
     height:49px;
 }
 
-#u47_img {
+#u46_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -792,7 +778,7 @@ div {
     height:55px;
 }
 
-.u48 {
+.u47 {
     position:absolute;
     left:2px;
     top:16px;
@@ -806,31 +792,11 @@ div {
     word-wrap:break-word;
 }
 
-.u49_normal {
-    background-image: url('../社招资料录入_files/u49_normal.png');
-}
-
-.u49_container {
+.u48 {
     position:absolute;
-    left:148px;
-    top:458px;
-    width:246px;
-    height:22px;
-}
-
-#u49_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:252px;
-    height:28px;
-}
-
-.u50 {
-    position:absolute;
-    left:2px;
-    top:3px;
-    width:242px;
+    left:3px;
+    top:537px;
+    width:135px;
     height:16px;
     ;
     ;
@@ -838,13 +804,47 @@ div {
     font-family:Arial;
     text-align:left;
     word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:20px;
+    top:382px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50_normal {
+    background-image: url('../社招资料录入_files/u50_normal.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:51px;
+    top:413px;
+    width:180px;
+    height:18px;
+}
+
+#u50_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:24px;
 }
 
 .u51 {
     position:absolute;
-    left:3px;
-    top:384px;
-    width:138px;
+    left:2px;
+    top:1px;
+    width:176px;
     height:16px;
     ;
     ;
@@ -854,11 +854,757 @@ div {
     word-wrap:break-word;
 }
 
-.u52 {
+.u52_normal {
+    background-image: url('../社招资料录入_files/u50_normal.png');
+}
+
+.u52_container {
     position:absolute;
-    left:373px;
-    top:458px;
-    width:21px;
+    left:53px;
+    top:615px;
+    width:180px;
+    height:18px;
+}
+
+#u52_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:24px;
+}
+
+.u53 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54_normal {
+    background-image: url('../社招资料录入_files/u50_normal.png');
+}
+
+.u54_container {
+    position:absolute;
+    left:53px;
+    top:635px;
+    width:180px;
+    height:18px;
+}
+
+#u54_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:24px;
+}
+
+.u55 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56 {
+    position:absolute;
+    left:17px;
+    top:513px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57 {
+    position:absolute;
+    left:148px;
+    top:510px;
+    width:121px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u58 {
+    position:absolute;
+    left:14px;
+    top:723px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../社招资料录入_files/u2_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:145px;
+    top:720px;
+    width:121px;
+    height:22px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../社招资料录入_files/u2_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:145px;
+    top:768px;
+    width:121px;
+    height:22px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63_normal {
+    background-image: url('../社招资料录入_files/u2_normal.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:145px;
+    top:672px;
+    width:121px;
+    height:22px;
+}
+
+#u63_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u64 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:55px;
+    top:675px;
+    width:80px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66_normal {
+    background-image: url('../社招资料录入_files/u2_normal.png');
+}
+
+.u66_container {
+    position:absolute;
+    left:145px;
+    top:696px;
+    width:121px;
+    height:22px;
+}
+
+#u66_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u67 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68 {
+    position:absolute;
+    left:55px;
+    top:699px;
+    width:80px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69 {
+    position:absolute;
+    left:26px;
+    top:800px;
+    width:109px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u70_normal {
+    background-image: url('../社招资料录入_files/u46_normal.png');
+}
+
+.u70_container {
+    position:absolute;
+    left:145px;
+    top:793px;
+    width:217px;
+    height:49px;
+}
+
+#u70_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:223px;
+    height:55px;
+}
+
+.u71 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:213px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72 {
+    position:absolute;
+    left:0px;
+    top:771px;
+    width:135px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73 {
+    position:absolute;
+    left:14px;
+    top:747px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u74 {
+    position:absolute;
+    left:145px;
+    top:744px;
+    width:121px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u75_normal {
+    background-image: url('../社招资料录入_files/u50_normal.png');
+}
+
+.u75_container {
+    position:absolute;
+    left:64px;
+    top:860px;
+    width:180px;
+    height:18px;
+}
+
+#u75_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:24px;
+}
+
+.u76 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77_normal {
+    background-image: url('../社招资料录入_files/u50_normal.png');
+}
+
+.u77_container {
+    position:absolute;
+    left:64px;
+    top:882px;
+    width:180px;
+    height:18px;
+}
+
+#u77_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:24px;
+}
+
+.u78 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79 {
+    position:absolute;
+    left:25px;
+    top:970px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u80_normal {
+    background-image: url('../社招资料录入_files/u2_normal.png');
+}
+
+.u80_container {
+    position:absolute;
+    left:156px;
+    top:967px;
+    width:121px;
+    height:22px;
+}
+
+#u80_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u81 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u82_normal {
+    background-image: url('../社招资料录入_files/u2_normal.png');
+}
+
+.u82_container {
+    position:absolute;
+    left:156px;
+    top:1015px;
+    width:121px;
+    height:22px;
+}
+
+#u82_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u83 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u84_normal {
+    background-image: url('../社招资料录入_files/u2_normal.png');
+}
+
+.u84_container {
+    position:absolute;
+    left:156px;
+    top:919px;
+    width:121px;
+    height:22px;
+}
+
+#u84_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u85 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u86 {
+    position:absolute;
+    left:66px;
+    top:922px;
+    width:80px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87_normal {
+    background-image: url('../社招资料录入_files/u2_normal.png');
+}
+
+.u87_container {
+    position:absolute;
+    left:156px;
+    top:943px;
+    width:121px;
+    height:22px;
+}
+
+#u87_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u88 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89 {
+    position:absolute;
+    left:66px;
+    top:946px;
+    width:80px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u90 {
+    position:absolute;
+    left:37px;
+    top:1047px;
+    width:109px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91 {
+    position:absolute;
+    left:11px;
+    top:1018px;
+    width:135px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u92 {
+    position:absolute;
+    left:25px;
+    top:994px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93 {
+    position:absolute;
+    left:156px;
+    top:991px;
+    width:121px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u94_normal {
+    background-image: url('../社招资料录入_files/u50_normal.png');
+}
+
+.u94_container {
+    position:absolute;
+    left:75px;
+    top:1107px;
+    width:180px;
+    height:18px;
+}
+
+#u94_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:24px;
+}
+
+.u95 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u96_normal {
+    background-image: url('../社招资料录入_files/u46_normal.png');
+}
+
+.u96_container {
+    position:absolute;
+    left:156px;
+    top:1043px;
+    width:217px;
+    height:49px;
+}
+
+#u96_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:223px;
+    height:55px;
+}
+
+.u97 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:213px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98 {
+    position:absolute;
+    left:90px;
+    top:342px;
+    width:87px;
     height:23px;
     ;
     ;
@@ -870,5 +1616,217 @@ div {
     font-weight:normal;
     text-decoration:none;
     
+}
+
+.u99 {
+    position:absolute;
+    left:25px;
+    top:1200px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100 {
+    position:absolute;
+    left:113px;
+    top:1230px;
+    width:100px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u101 {
+    position:absolute;
+    left:64px;
+    top:1233px;
+    width:40px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u102_normal {
+    background-image: url('../社招资料录入_files/u102_normal.png');
+}
+
+.u102_container {
+    position:absolute;
+    left:249px;
+    top:1230px;
+    width:364px;
+    height:25px;
+}
+
+#u102_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:370px;
+    height:31px;
+}
+
+.u103 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:360px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u104 {
+    position:absolute;
+    left:106px;
+    top:1293px;
+    width:138px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u105 {
+    position:absolute;
+    left:113px;
+    top:1259px;
+    width:100px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u106_normal {
+    background-image: url('../社招资料录入_files/u102_normal.png');
+}
+
+.u106_container {
+    position:absolute;
+    left:249px;
+    top:1259px;
+    width:364px;
+    height:25px;
+}
+
+#u106_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:370px;
+    height:31px;
+}
+
+.u107 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:360px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u108 {
+    position:absolute;
+    left:64px;
+    top:1145px;
+    width:87px;
+    height:23px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u109_normal {
+    background-image: url('../社招资料录入_files/u2_normal.png');
+}
+
+.u109_container {
+    position:absolute;
+    left:148px;
+    top:44px;
+    width:121px;
+    height:22px;
+}
+
+#u109_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u110 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u111 {
+    position:absolute;
+    left:66px;
+    top:47px;
+    width:72px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
 }
 

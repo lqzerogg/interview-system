@@ -454,107 +454,7 @@ div {
     word-wrap:break-word;
 }
 
-.u27_normal {
-    background-image: url('../校招资料录入_files/u0_normal.png');
-}
-
-.u27_container {
-    position:absolute;
-    left:148px;
-    top:288px;
-    width:121px;
-    height:22px;
-}
-
-#u27_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:127px;
-    height:28px;
-}
-
-.u28 {
-    position:absolute;
-    left:2px;
-    top:3px;
-    width:117px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u29_normal {
-    background-image: url('../校招资料录入_files/u0_normal.png');
-}
-
-.u29_container {
-    position:absolute;
-    left:148px;
-    top:312px;
-    width:121px;
-    height:22px;
-}
-
-#u29_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:127px;
-    height:28px;
-}
-
-.u30 {
-    position:absolute;
-    left:2px;
-    top:3px;
-    width:117px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u31 {
-    position:absolute;
-    left:93px;
-    top:291px;
-    width:45px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u32 {
-    position:absolute;
-    left:182px;
-    top:409px;
-    width:87px;
-    height:23px;
-    ;
-    ;
-    text-align: center;;
-    font-family:'Arial';
-    font-size: 13px;
-    color:#000000;
-    font-style:normal;
-    font-weight:normal;
-    text-decoration:none;
-    
-}
-
-.u33 {
+.u27 {
     position:absolute;
     left:17px;
     top:13px;
@@ -568,87 +468,11 @@ div {
     word-wrap:break-word;
 }
 
-.u34 {
-    position:absolute;
-    left:67px;
-    top:315px;
-    width:71px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u35 {
-    position:absolute;
-    left:52px;
-    top:377px;
-    width:86px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u36_normal {
-    background-image: url('../校招资料录入_files/u36_normal.png');
-}
-
-.u36_container {
-    position:absolute;
-    left:148px;
-    top:336px;
-    width:252px;
-    height:34px;
-}
-
-#u36_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:258px;
-    height:40px;
-}
-
-.u37 {
-    position:absolute;
-    left:2px;
-    top:9px;
-    width:248px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u38 {
-    position:absolute;
-    left:67px;
-    top:338px;
-    width:71px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u39_normal {
+.u28_normal {
     background-image: url('../校招资料录入_files/u0_normal.png');
 }
 
-.u39_container {
+.u28_container {
     position:absolute;
     left:148px;
     top:96px;
@@ -656,7 +480,7 @@ div {
     height:22px;
 }
 
-#u39_img {
+#u28_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -664,7 +488,7 @@ div {
     height:28px;
 }
 
-.u40 {
+.u29 {
     position:absolute;
     left:2px;
     top:3px;
@@ -678,7 +502,7 @@ div {
     word-wrap:break-word;
 }
 
-.u41 {
+.u30 {
     position:absolute;
     left:107px;
     top:100px;
@@ -692,31 +516,11 @@ div {
     word-wrap:break-word;
 }
 
-.u42_normal {
-    background-image: url('../校招资料录入_files/u42_normal.png');
-}
-
-.u42_container {
+.u31 {
     position:absolute;
-    left:148px;
-    top:375px;
-    width:214px;
-    height:24px;
-}
-
-#u42_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:220px;
-    height:30px;
-}
-
-.u43 {
-    position:absolute;
-    left:2px;
-    top:4px;
-    width:210px;
+    left:17px;
+    top:344px;
+    width:121px;
     height:16px;
     ;
     ;
@@ -726,12 +530,338 @@ div {
     word-wrap:break-word;
 }
 
-.u44 {
+.u32_normal {
+    background-image: url('../校招资料录入_files/u0_normal.png');
+}
+
+.u32_container {
     position:absolute;
-    left:341px;
-    top:375px;
-    width:21px;
-    height:23px;
+    left:148px;
+    top:341px;
+    width:121px;
+    height:22px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../校招资料录入_files/u0_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:148px;
+    top:390px;
+    width:121px;
+    height:22px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36 {
+    position:absolute;
+    left:29px;
+    top:445px;
+    width:109px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../校招资料录入_files/u37_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:148px;
+    top:438px;
+    width:217px;
+    height:49px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:223px;
+    height:55px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:213px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:20px;
+    top:297px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../校招资料录入_files/u40_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:51px;
+    top:319px;
+    width:180px;
+    height:18px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:24px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../校招资料录入_files/u40_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:53px;
+    top:494px;
+    width:180px;
+    height:18px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:24px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../校招资料录入_files/u40_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:53px;
+    top:514px;
+    width:180px;
+    height:18px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:24px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46 {
+    position:absolute;
+    left:17px;
+    top:368px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:148px;
+    top:365px;
+    width:121px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u48 {
+    position:absolute;
+    left:15px;
+    top:416px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../校招资料录入_files/u0_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:148px;
+    top:414px;
+    width:121px;
+    height:22px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:17px;
+    top:391px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52 {
+    position:absolute;
+    left:36px;
+    top:554px;
+    width:100px;
+    height:25px;
     ;
     ;
     text-align: center;;

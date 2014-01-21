@@ -38,11 +38,14 @@
 		<div class="container content">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<div class="panel panel-default">
+					<div class="panel panel-default basic-data-panel">
 					  <!-- Default panel contents -->
 					  <div class="panel-heading">基本信息</div>
 					  <div class="panel-body">
 					    <ul class="infos">
+					    	<li class="photo">
+					    		<img src="" alt="">
+					    	</li>
 					    	<li class="clearfix">
 					    		<span class="title">负责人</span>
 					    		<p class="substance">负责人A</p>
@@ -105,9 +108,67 @@
 					    	</li>					    	
 					    </ul>
 					  </div>
-					</div>					
+					</div>		
+					<div class="panel panel-default">
+					  	<!-- Default panel contents -->
+					  	<div class="panel-heading">面试历史</div>
+						<div class="panel-body">
+							<dl class="arranges">
+				    			<dt><h2>面试一</h2></dt>
+				    			<dd>
+				    				<ul class="infos">
+				    					<li class="clearfix">
+								    		<span class="title">面试地点</span>
+								    		<p class="substance">北京</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">面试方式</span>
+								    		<p class="substance">面谈</p>
+								    	</li>
+						    			<li class="clearfix">
+								    		<span class="title">面试官</span>
+								    		<p class="substance">卢亮</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">面试时间</span>
+								    		<p class="substance">2012-12-22</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">面试评价</span>
+								    		<p class="substance">非常十分极其好</p>
+								    	</li>								    	
+						    		</ul>
+				    			</dd>
+				    			<dt><h2>面试二</h2></dt>
+				    			<dd>
+				    				<ul class="infos">
+						    			<li class="clearfix">
+								    		<span class="title">面试地点</span>
+								    		<p class="substance">北京</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">面试方式</span>
+								    		<p class="substance">面谈</p>
+								    	</li>
+						    			<li class="clearfix">
+								    		<span class="title">面试官</span>
+								    		<p class="substance">卢亮</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">面试时间</span>
+								    		<p class="substance">2012-12-22</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">面试评价</span>
+								    		<p class="substance">非常十分极其好</p>
+								    	</li>
+						    		</ul>
+				    			</dd>
+				    		</dl>
+						</div>
+					</div>			
 					<form class="" role="form" action="">
-						<div class="panel panel-default">
+						<div class="panel panel-default panel-result">
 						  <!-- Default panel contents -->
 						  <div class="panel-heading">填写信息</div>
 						  <div class="panel-body">
@@ -115,33 +176,32 @@
 							  	<input type="text" name="id" id="id" value="1">
 							</div>
 						  	<div class="form-group">
-							    <label for="need-interview" class="control-label">需要面试</label>
+							    <label for="need-interview" class="control-label">是否需要面试</label>
 							    <div>
 							    	<div class="radio">
 								    	<label><input value="interview" type="radio" name="interview" id="need-interview">面试</label>
 								    </div>
+								    <div class="radio">
+								      	<label><input value="OK" type="radio"  name="interview">不面试OK</label>
+							      	</div>
+							      	<div class="radio">
+								      	<label><input value="Pass"  type="radio" name="interview">不面试Pass</label>
+								    </div>
+								    <div class="radio">
+								      	<label><input value="Hold" type="radio" name="interview">不面试Hold</label>
+								    </div>
 							    </div>
 							</div>
-							<div class="form-group">
-								<label for="not-interview" class="control-label">不需要面试</label>		
-								<div>
-									  <div class="radio">
-								      	<label><input value="OK" type="radio"  name="interview">OK</label>
-								      </div>
-								      <div class="radio">
-								      	<label><input value="Pass"  type="radio" name="interview">Pass</label>
-								      </div>
-								      <div class="radio">
-								      	<label><input value="Hold" type="radio" name="interview">Hold</label>
-								      </div>					      		
-								</div>
-							</div>
+		
 							<div class="form-group">
 								<label for="ceo-evaluation" class="control-label">CEO面试评价</label>
 								<textarea name="ceo-evaluation" id="ceo-evaluation" rows="5"></textarea>
 							</div>
 							<div class="form-group">
-								<button type="submit" class="btn btn-primary">保存</button>
+								<button type="submit" class="btn btn-primary">
+									<span class="glyphicon glyphicon-floppy-save"></span>
+									保存
+								</button>
 							</div>
 						  </div>
 						</div>					  					 					  					

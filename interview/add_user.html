@@ -63,11 +63,25 @@
 					      		<option value="3">Recruiter Director</option>					      		
 					      </select>
 					    </div>
-					  </div>					  
+					  </div>		
+					  <div class="form-group">
+					    <label for="status" class="col-sm-2 control-label">状态</label>
+					    <div class="col-sm-10">
+					      <div class="radio">
+					      	<label><input type="radio" name="status" claas="status" value="1" checked="checked">开启</label>
+					      </div>
+					      <div class="radio">
+					      	<label><input type="radio" name="status" claas="status" value="0">关闭</label>
+					      </div>
+					    </div>
+					  </div>				  
 					  
 					  <div class="form-group">
 					    <div class="col-sm-offset-2 col-sm-10">
-					      <button type="submit" class="btn btn-primary">保存</button>
+					      <button type="submit" class="btn btn-primary">
+					      	<span class="glyphicon glyphicon-floppy-save"></span>
+					      	保存
+					      </button>
 					    </div>
 					  </div>
 					</form>

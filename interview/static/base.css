@@ -3,7 +3,9 @@ ul, dl, ol {
 	list-style: none;
 	padding-left: 0;
 }
-
+div.none, input.none {
+	display: none;
+}
 /* 头部logo样式 */
 
 .header {
@@ -63,6 +65,20 @@ textarea {
 }
 
 /* 面试者数据信息 */
+.basic-data-panel .panel-body{
+	position: relative;
+}
+.basic-data-panel .photo {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.basic-data-panel .photo img{
+	min-width: 150px;
+	min-height: 150px;
+	max-width: 200px;
+	max-height: 200px;
+}
 .infos .title {
 	float: left;
 	font-weight: bold;
@@ -76,8 +92,20 @@ textarea {
 .infos p {
 	margin-bottom: 0;
 }
-.panel .radio+.radio {
+.panel-result .radio+.radio {
 	margin-top: 10px;
+}
+.panel h2 {
+	font-size: 14px;
+	margin: 0;
+}
+.file-wrapper input[type="file"] {
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 5px;
+}
+.file-wrapper .delete {
+	vertical-align: top;
 }
 
 /* 响应式样式 */
@@ -161,4 +189,12 @@ textarea {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 993px) {
 
+}
+
+
+/* hack */
+@-moz-document url-prefix() {
+	input[type="file"] {
+		padding: 0;
+	}
 }

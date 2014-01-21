@@ -29,9 +29,9 @@ div {
 .u0_container {
     position:absolute;
     left:17px;
-    top:11px;
+    top:6px;
     width:483px;
-    height:563px;
+    height:718px;
 }
 
 #u0_img {
@@ -39,13 +39,13 @@ div {
     left:-3px;
     top:-3px;
     width:489px;
-    height:569px;
+    height:724px;
 }
 
 .u1 {
     position:absolute;
     left:2px;
-    top:274px;
+    top:351px;
     width:479px;
     height:16px;
     ;
@@ -500,25 +500,11 @@ div {
     word-wrap:break-word;
 }
 
-.u30 {
-    position:absolute;
-    left:40px;
-    top:339px;
-    width:150px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u31_normal {
+.u30_normal {
     background-image: url('../Alan看到的社招面试评价表_files/u6_normal.png');
 }
 
-.u31_container {
+.u30_container {
     position:absolute;
     left:171px;
     top:168px;
@@ -526,7 +512,7 @@ div {
     height:22px;
 }
 
-#u31_img {
+#u30_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -534,7 +520,7 @@ div {
     height:28px;
 }
 
-.u32 {
+.u31 {
     position:absolute;
     left:2px;
     top:3px;
@@ -548,11 +534,11 @@ div {
     word-wrap:break-word;
 }
 
-.u33_normal {
+.u32_normal {
     background-image: url('../Alan看到的社招面试评价表_files/u6_normal.png');
 }
 
-.u33_container {
+.u32_container {
     position:absolute;
     left:171px;
     top:192px;
@@ -560,113 +546,31 @@ div {
     height:22px;
 }
 
-#u33_img {
+#u32_img {
     position:absolute;
     left:-3px;
     top:-3px;
     width:127px;
     height:28px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
 }
 
 .u34 {
     position:absolute;
-    left:2px;
-    top:3px;
-    width:117px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u35_normal {
-    background-image: url('../Alan看到的社招面试评价表_files/u6_normal.png');
-}
-
-.u35_container {
-    position:absolute;
-    left:171px;
-    top:336px;
-    width:121px;
-    height:22px;
-}
-
-#u35_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:127px;
-    height:28px;
-}
-
-.u36 {
-    position:absolute;
-    left:2px;
-    top:3px;
-    width:117px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u37_normal {
-    background-image: url('../Alan看到的社招面试评价表_files/u6_normal.png');
-}
-
-.u37_container {
-    position:absolute;
-    left:171px;
-    top:405px;
-    width:121px;
-    height:22px;
-}
-
-#u37_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:127px;
-    height:28px;
-}
-
-.u38 {
-    position:absolute;
-    left:2px;
-    top:3px;
-    width:117px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u39 {
-    position:absolute;
-    left:53px;
-    top:408px;
-    width:108px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u40 {
-    position:absolute;
-    left:40px;
+    left:17px;
     top:13px;
     width:150px;
     height:19px;
@@ -678,10 +582,10 @@ div {
     word-wrap:break-word;
 }
 
-.u41 {
+.u35 {
     position:absolute;
-    left:50px;
-    top:432px;
+    left:46px;
+    top:514px;
     width:108px;
     height:16px;
     ;
@@ -692,19 +596,19 @@ div {
     word-wrap:break-word;
 }
 
-.u42_normal {
-    background-image: url('../Alan看到的社招面试评价表_files/u42_normal.png');
+.u36_normal {
+    background-image: url('../Alan看到的社招面试评价表_files/u36_normal.png');
 }
 
-.u42_container {
+.u36_container {
     position:absolute;
-    left:171px;
-    top:460px;
+    left:167px;
+    top:542px;
     width:194px;
     height:53px;
 }
 
-#u42_img {
+#u36_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -712,7 +616,7 @@ div {
     height:59px;
 }
 
-.u43 {
+.u37 {
     position:absolute;
     left:2px;
     top:18px;
@@ -726,10 +630,10 @@ div {
     word-wrap:break-word;
 }
 
-.u44 {
+.u38 {
     position:absolute;
-    left:50px;
-    top:456px;
+    left:46px;
+    top:538px;
     width:108px;
     height:16px;
     ;
@@ -740,11 +644,11 @@ div {
     word-wrap:break-word;
 }
 
-.u45_normal {
+.u39_normal {
     background-image: url('../Alan看到的社招面试评价表_files/u4_normal.png');
 }
 
-.u45_container {
+.u39_container {
     position:absolute;
     left:171px;
     top:50px;
@@ -752,7 +656,7 @@ div {
     height:22px;
 }
 
-#u45_img {
+#u39_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -760,7 +664,7 @@ div {
     height:28px;
 }
 
-.u46 {
+.u40 {
     position:absolute;
     left:2px;
     top:3px;
@@ -774,7 +678,7 @@ div {
     word-wrap:break-word;
 }
 
-.u47 {
+.u41 {
     position:absolute;
     left:92px;
     top:53px;
@@ -788,10 +692,10 @@ div {
     word-wrap:break-word;
 }
 
-.u48 {
+.u42 {
     position:absolute;
-    left:169px;
-    top:536px;
+    left:111px;
+    top:614px;
     width:69px;
     height:25px;
     ;
@@ -806,11 +710,87 @@ div {
     
 }
 
-.u50 {
+.u44 {
     position:absolute;
     left:16px;
     top:0px;
     width:35px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:35px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:35px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../Alan看到的社招面试评价表_files/u49_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:464px;
+    top:17px;
+    width:29px;
+    height:15px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:35px;
+    height:21px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:25px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:34px;
+    top:355px;
+    width:121px;
     height:16px;
     ;
     ;
@@ -822,10 +802,24 @@ div {
 
 .u52 {
     position:absolute;
-    left:16px;
-    top:0px;
-    width:35px;
+    left:46px;
+    top:406px;
+    width:109px;
     height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53 {
+    position:absolute;
+    left:20px;
+    top:336px;
+    width:150px;
+    height:19px;
     ;
     ;
     ;
@@ -836,9 +830,9 @@ div {
 
 .u54 {
     position:absolute;
-    left:16px;
-    top:0px;
-    width:35px;
+    left:34px;
+    top:372px;
+    width:121px;
     height:16px;
     ;
     ;
@@ -850,8 +844,8 @@ div {
 
 .u55 {
     position:absolute;
-    left:25px;
-    top:361px;
+    left:168px;
+    top:355px;
     width:150px;
     height:16px;
     ;
@@ -862,31 +856,11 @@ div {
     word-wrap:break-word;
 }
 
-.u56_normal {
-    background-image: url('../Alan看到的社招面试评价表_files/u6_normal.png');
-}
-
-.u56_container {
+.u56 {
     position:absolute;
-    left:170px;
-    top:358px;
-    width:121px;
-    height:22px;
-}
-
-#u56_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:127px;
-    height:28px;
-}
-
-.u57 {
-    position:absolute;
-    left:2px;
-    top:3px;
-    width:117px;
+    left:167px;
+    top:371px;
+    width:150px;
     height:16px;
     ;
     ;
@@ -896,31 +870,39 @@ div {
     word-wrap:break-word;
 }
 
-.u58_normal {
-    background-image: url('../Alan看到的社招面试评价表_files/u6_normal.png');
-}
-
-.u58_container {
+.u57 {
     position:absolute;
-    left:170px;
-    top:380px;
+    left:34px;
+    top:389px;
     width:121px;
-    height:22px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
 }
 
-#u58_img {
+.u58 {
     position:absolute;
-    left:-3px;
-    top:-3px;
-    width:127px;
-    height:28px;
+    left:167px;
+    top:388px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
 }
 
 .u59 {
     position:absolute;
-    left:2px;
-    top:3px;
-    width:117px;
+    left:166px;
+    top:405px;
+    width:150px;
     height:16px;
     ;
     ;
@@ -932,9 +914,23 @@ div {
 
 .u60 {
     position:absolute;
-    left:25px;
-    top:383px;
-    width:137px;
+    left:20px;
+    top:434px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61 {
+    position:absolute;
+    left:73px;
+    top:458px;
+    width:80px;
     height:16px;
     ;
     ;
@@ -944,31 +940,67 @@ div {
     word-wrap:break-word;
 }
 
-.u61_normal {
-    background-image: url('../Alan看到的社招面试评价表_files/u61_normal.png');
-}
-
-.u61_container {
-    position:absolute;
-    left:464px;
-    top:17px;
-    width:29px;
-    height:15px;
-}
-
-#u61_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:35px;
-    height:21px;
-}
-
 .u62 {
     position:absolute;
-    left:2px;
-    top:0px;
-    width:25px;
+    left:73px;
+    top:476px;
+    width:80px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63 {
+    position:absolute;
+    left:165px;
+    top:458px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64 {
+    position:absolute;
+    left:165px;
+    top:476px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:32px;
+    top:495px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66 {
+    position:absolute;
+    left:165px;
+    top:494px;
+    width:150px;
     height:16px;
     ;
     ;

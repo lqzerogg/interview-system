@@ -22,41 +22,7 @@ div {
     background-color: transparent;
 }
 
-.u0_normal {
-    background-image: url('../CEO确认是否面试_files/u0_normal.png');
-}
-
-.u0_container {
-    position:absolute;
-    left:0px;
-    top:6px;
-    width:500px;
-    height:546px;
-}
-
-#u0_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:506px;
-    height:552px;
-}
-
-.u1 {
-    position:absolute;
-    left:2px;
-    top:265px;
-    width:496px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u2 {
+.u0 {
     position:absolute;
     left:81px;
     top:147px;
@@ -70,7 +36,7 @@ div {
     word-wrap:break-word;
 }
 
-.u3 {
+.u1 {
     position:absolute;
     left:148px;
     top:144px;
@@ -88,6 +54,40 @@ div {
     
 }
 
+.u2_normal {
+    background-image: url('../CEO确认是否面试_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:148px;
+    top:72px;
+    width:121px;
+    height:22px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u4_normal {
     background-image: url('../CEO确认是否面试_files/u4_normal.png');
 }
@@ -95,7 +95,7 @@ div {
 .u4_container {
     position:absolute;
     left:148px;
-    top:72px;
+    top:120px;
     width:121px;
     height:22px;
 }
@@ -123,13 +123,13 @@ div {
 }
 
 .u6_normal {
-    background-image: url('../CEO确认是否面试_files/u6_normal.png');
+    background-image: url('../CEO确认是否面试_files/u4_normal.png');
 }
 
 .u6_container {
     position:absolute;
     left:148px;
-    top:120px;
+    top:96px;
     width:121px;
     height:22px;
 }
@@ -157,13 +157,13 @@ div {
 }
 
 .u8_normal {
-    background-image: url('../CEO确认是否面试_files/u6_normal.png');
+    background-image: url('../CEO确认是否面试_files/u4_normal.png');
 }
 
 .u8_container {
     position:absolute;
     left:148px;
-    top:96px;
+    top:216px;
     width:121px;
     height:22px;
 }
@@ -191,13 +191,13 @@ div {
 }
 
 .u10_normal {
-    background-image: url('../CEO确认是否面试_files/u6_normal.png');
+    background-image: url('../CEO确认是否面试_files/u4_normal.png');
 }
 
 .u10_container {
     position:absolute;
     left:148px;
-    top:216px;
+    top:240px;
     width:121px;
     height:22px;
 }
@@ -225,13 +225,13 @@ div {
 }
 
 .u12_normal {
-    background-image: url('../CEO确认是否面试_files/u6_normal.png');
+    background-image: url('../CEO确认是否面试_files/u4_normal.png');
 }
 
 .u12_container {
     position:absolute;
     left:148px;
-    top:240px;
+    top:264px;
     width:121px;
     height:22px;
 }
@@ -259,13 +259,13 @@ div {
 }
 
 .u14_normal {
-    background-image: url('../CEO确认是否面试_files/u6_normal.png');
+    background-image: url('../CEO确认是否面试_files/u4_normal.png');
 }
 
 .u14_container {
     position:absolute;
     left:148px;
-    top:264px;
+    top:288px;
     width:121px;
     height:22px;
 }
@@ -293,13 +293,13 @@ div {
 }
 
 .u16_normal {
-    background-image: url('../CEO确认是否面试_files/u6_normal.png');
+    background-image: url('../CEO确认是否面试_files/u4_normal.png');
 }
 
 .u16_container {
     position:absolute;
     left:148px;
-    top:288px;
+    top:312px;
     width:121px;
     height:22px;
 }
@@ -326,41 +326,7 @@ div {
     word-wrap:break-word;
 }
 
-.u18_normal {
-    background-image: url('../CEO确认是否面试_files/u6_normal.png');
-}
-
-.u18_container {
-    position:absolute;
-    left:148px;
-    top:312px;
-    width:121px;
-    height:22px;
-}
-
-#u18_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:127px;
-    height:28px;
-}
-
-.u19 {
-    position:absolute;
-    left:2px;
-    top:3px;
-    width:117px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u20 {
+.u18 {
     position:absolute;
     left:107px;
     top:75px;
@@ -374,7 +340,7 @@ div {
     word-wrap:break-word;
 }
 
-.u21 {
+.u19 {
     position:absolute;
     left:106px;
     top:123px;
@@ -388,7 +354,7 @@ div {
     word-wrap:break-word;
 }
 
-.u22 {
+.u20 {
     position:absolute;
     left:107px;
     top:101px;
@@ -402,7 +368,7 @@ div {
     word-wrap:break-word;
 }
 
-.u23 {
+.u21 {
     position:absolute;
     left:81px;
     top:171px;
@@ -416,7 +382,7 @@ div {
     word-wrap:break-word;
 }
 
-.u24 {
+.u22 {
     position:absolute;
     left:81px;
     top:195px;
@@ -430,7 +396,7 @@ div {
     word-wrap:break-word;
 }
 
-.u25 {
+.u23 {
     position:absolute;
     left:81px;
     top:221px;
@@ -444,7 +410,7 @@ div {
     word-wrap:break-word;
 }
 
-.u26 {
+.u24 {
     position:absolute;
     left:106px;
     top:243px;
@@ -458,7 +424,7 @@ div {
     word-wrap:break-word;
 }
 
-.u27 {
+.u25 {
     position:absolute;
     left:58px;
     top:266px;
@@ -472,7 +438,7 @@ div {
     word-wrap:break-word;
 }
 
-.u28 {
+.u26 {
     position:absolute;
     left:58px;
     top:291px;
@@ -486,7 +452,7 @@ div {
     word-wrap:break-word;
 }
 
-.u29 {
+.u27 {
     position:absolute;
     left:58px;
     top:315px;
@@ -500,25 +466,11 @@ div {
     word-wrap:break-word;
 }
 
-.u30 {
-    position:absolute;
-    left:17px;
-    top:336px;
-    width:150px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
+.u28_normal {
+    background-image: url('../CEO确认是否面试_files/u4_normal.png');
 }
 
-.u31_normal {
-    background-image: url('../CEO确认是否面试_files/u6_normal.png');
-}
-
-.u31_container {
+.u28_container {
     position:absolute;
     left:148px;
     top:168px;
@@ -526,7 +478,7 @@ div {
     height:22px;
 }
 
-#u31_img {
+#u28_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -534,7 +486,7 @@ div {
     height:28px;
 }
 
-.u32 {
+.u29 {
     position:absolute;
     left:2px;
     top:3px;
@@ -548,14 +500,62 @@ div {
     word-wrap:break-word;
 }
 
+.u30_normal {
+    background-image: url('../CEO确认是否面试_files/u4_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:148px;
+    top:192px;
+    width:121px;
+    height:22px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:28px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:17px;
+    top:13px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
 .u33_normal {
-    background-image: url('../CEO确认是否面试_files/u6_normal.png');
+    background-image: url('../CEO确认是否面试_files/u2_normal.png');
 }
 
 .u33_container {
     position:absolute;
     left:148px;
-    top:192px;
+    top:50px;
     width:121px;
     height:22px;
 }
@@ -582,89 +582,7 @@ div {
     word-wrap:break-word;
 }
 
-.u35_normal {
-    background-image: url('../CEO确认是否面试_files/u6_normal.png');
-}
-
-.u35_container {
-    position:absolute;
-    left:148px;
-    top:333px;
-    width:121px;
-    height:22px;
-}
-
-#u35_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:127px;
-    height:28px;
-}
-
-.u36 {
-    position:absolute;
-    left:2px;
-    top:3px;
-    width:117px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u37 {
-    position:absolute;
-    left:17px;
-    top:13px;
-    width:150px;
-    height:19px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u38_normal {
-    background-image: url('../CEO确认是否面试_files/u4_normal.png');
-}
-
-.u38_container {
-    position:absolute;
-    left:148px;
-    top:50px;
-    width:121px;
-    height:22px;
-}
-
-#u38_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:127px;
-    height:28px;
-}
-
-.u39 {
-    position:absolute;
-    left:2px;
-    top:3px;
-    width:117px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u40 {
+.u35 {
     position:absolute;
     left:69px;
     top:53px;
@@ -678,31 +596,11 @@ div {
     word-wrap:break-word;
 }
 
-.u41_normal {
-    background-image: url('../CEO确认是否面试_files/u41_normal.png');
-}
-
-.u41_container {
+.u37 {
     position:absolute;
-    left:147px;
-    top:375px;
-    width:239px;
-    height:22px;
-}
-
-#u41_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:245px;
-    height:28px;
-}
-
-.u42 {
-    position:absolute;
-    left:2px;
-    top:3px;
-    width:235px;
+    left:16px;
+    top:0px;
+    width:82px;
     height:16px;
     ;
     ;
@@ -712,11 +610,39 @@ div {
     word-wrap:break-word;
 }
 
-.u43 {
+.u38 {
     position:absolute;
-    left:29px;
-    top:378px;
-    width:108px;
+    left:83px;
+    top:485px;
+    width:83px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
     height:16px;
     ;
     ;
@@ -728,68 +654,6 @@ div {
 
 .u44 {
     position:absolute;
-    left:2px;
-    top:358px;
-    width:150px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u45_normal {
-    background-image: url('../CEO确认是否面试_files/u6_normal.png');
-}
-
-.u45_container {
-    position:absolute;
-    left:148px;
-    top:355px;
-    width:121px;
-    height:22px;
-}
-
-#u45_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:127px;
-    height:28px;
-}
-
-.u46 {
-    position:absolute;
-    left:2px;
-    top:3px;
-    width:117px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u47 {
-    position:absolute;
-    left:84px;
-    top:404px;
-    width:53px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u49 {
-    position:absolute;
     left:16px;
     top:0px;
     width:82px;
@@ -802,66 +666,10 @@ div {
     word-wrap:break-word;
 }
 
-.u50 {
-    position:absolute;
-    left:71px;
-    top:429px;
-    width:83px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u52 {
-    position:absolute;
-    left:16px;
-    top:0px;
-    width:82px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u54 {
-    position:absolute;
-    left:16px;
-    top:0px;
-    width:82px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u56 {
-    position:absolute;
-    left:16px;
-    top:0px;
-    width:82px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u57 {
+.u45 {
     position:absolute;
     left:69px;
-    top:509px;
+    top:588px;
     width:100px;
     height:25px;
     ;
@@ -876,10 +684,10 @@ div {
     
 }
 
-.u58 {
+.u46 {
     position:absolute;
     left:58px;
-    top:455px;
+    top:509px;
     width:80px;
     height:16px;
     ;
@@ -890,19 +698,19 @@ div {
     word-wrap:break-word;
 }
 
-.u59_normal {
-    background-image: url('../CEO确认是否面试_files/u59_normal.png');
+.u47_normal {
+    background-image: url('../CEO确认是否面试_files/u47_normal.png');
 }
 
-.u59_container {
+.u47_container {
     position:absolute;
     left:148px;
-    top:456px;
+    top:510px;
     width:228px;
     height:43px;
 }
 
-#u59_img {
+#u47_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -910,7 +718,7 @@ div {
     height:49px;
 }
 
-.u60 {
+.u48 {
     position:absolute;
     left:2px;
     top:14px;
@@ -924,11 +732,11 @@ div {
     word-wrap:break-word;
 }
 
-.u61_normal {
-    background-image: url('../CEO确认是否面试_files/u61_normal.png');
+.u49_normal {
+    background-image: url('../CEO确认是否面试_files/u49_normal.png');
 }
 
-.u61_container {
+.u49_container {
     position:absolute;
     left:460px;
     top:11px;
@@ -936,7 +744,7 @@ div {
     height:21px;
 }
 
-#u61_img {
+#u49_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -944,12 +752,152 @@ div {
     height:27px;
 }
 
-.u62 {
+.u50 {
     position:absolute;
     left:2px;
     top:2px;
     width:23px;
     height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:23px;
+    top:341px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52 {
+    position:absolute;
+    left:14px;
+    top:363px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53 {
+    position:absolute;
+    left:26px;
+    top:436px;
+    width:109px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54 {
+    position:absolute;
+    left:0px;
+    top:411px;
+    width:135px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55 {
+    position:absolute;
+    left:14px;
+    top:387px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56 {
+    position:absolute;
+    left:148px;
+    top:363px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57 {
+    position:absolute;
+    left:148px;
+    top:386px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58 {
+    position:absolute;
+    left:148px;
+    top:412px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59 {
+    position:absolute;
+    left:149px;
+    top:435px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u60 {
+    position:absolute;
+    left:26px;
+    top:462px;
+    width:150px;
+    height:19px;
     ;
     ;
     ;

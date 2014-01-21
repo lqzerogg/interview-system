@@ -50,141 +50,155 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-2">
 					<form class="form-horizontal" role="form">
+						<div class="panel panel-default basic-data-panel">
+							<!-- Default panel contents -->
+							<div class="panel-heading">Personal Info</div>
+							<div class="panel-body">
+								  <div class="form-group">
+								    <label for="name" class="col-sm-2 control-label">Name</label>
+								    <div class="col-sm-10">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="name" id="name" placeholder="name" required="required">
+								    </div>
+								  </div>
+								  
+								  <div class="form-group">
+								    <label for="age" class="col-sm-2 control-label">Age</label>
+								    <div class="col-sm-10">
+								      <input formnovalidate="formnovalidate" type="number" class="form-control" name="age" id="age" placeholder="21" required="required">
+								    </div>
+								  </div>
+								  
+								  <div class="form-group">
+								    <label class="col-sm-2 control-label">Gender</label>
+								    <div class="col-sm-10">
+								    	<div class="radio">
+								    		<label><input formnovalidate="formnovalidate" type="radio" value="man" checked="checked" name="gender">man</label>					    							      
+								    	</div>					    	
+								    	<div class="radio">
+								    		<label><input formnovalidate="formnovalidate" type="radio" value="woman" name="gender">woman</label>
+								    	</div>					    						    	
+								    </div>
+								  </div>
+								  
+								  <div class="form-group">
+								    <label for="marriage" class="col-sm-2 control-label">Marital Status</label>
+								    <div class="col-sm-10">
+								      <select name="marriage" id="marriage" class="form-control" required="required">
+								      		<option value="1">married</option>
+								      		<option value="2">divorced</option>
+								      		<option value="3">single</option>
+								      		<option value="4">widowed</option>
+								      </select>
+								    </div>
+								  </div>
+								  
+								  <div class="form-group">
+								    <label for="department" class="col-sm-2 control-label">Department</label>
+								    <div class="col-sm-10">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="department" id="department" placeholder="technology" required="required">
+								    </div>
+								  </div>
+								  
+								  <div class="form-group">
+								    <label for="position" class="col-sm-2 control-label">Position</label>
+								    <div class="col-sm-10">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="position" id="position" placeholder="php developer" required="required">
+								    </div>
+								  </div>
+								  
+								  <div class="form-group">
+								    <label for="level" class="col-sm-2 control-label">Band</label>
+								    <div class="col-sm-10">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="level" id="level" placeholder="8-1" required="required">
+								    </div>
+								  </div>
+								  
+								  <div class="form-group">
+								    <label for="education" class="col-sm-2 control-label">Academic Level</label>
+								    <div class="col-sm-10">								      
+								      <select name="education" id="education" class="form-control" required="required">
+								      		<option value="1">Bachelor</option>
+								      		<option value="2">master</option>
+								      		<option value="3">Doctor</option>
+								      		<option value="4">Dual-Degree</option>
+								      </select>
+								    </div>
+								  </div>
+								  
+								  <div class="form-group">
+								    <label for="final-school" class="col-sm-2 control-label">Final  Colleges</label>
+								    <div class="col-sm-10">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="final_school" id="final-school" placeholder="Beijing University" required="required">
+								    </div>
+								  </div>
+								  
+								  <div class="form-group">
+								    <label for="college" class="col-sm-2 control-label">University</label>
+								    <div class="col-sm-10">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="college" id="college" placeholder="Beijing University" required="required">
+								    </div>
+								  </div>
+								  
+								  <div class="form-group">
+								    <label for="company" class="col-sm-2 control-label">Current Company</label>
+								    <div class="col-sm-10">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="company" id="company" placeholder="Light in the box" required="required">
+								    </div>
+								  </div>	
+								  <div class="form-group">
+								    <label for="photo" class="col-sm-2 control-label">
+								    	Photograph
+									</button>
+								    </label>
+								    <div class="col-sm-10 file-wrapper">
+								      <input formnovalidate="formnovalidate" required="required" type="file" multiple class="form-control files" name="photo">
+								    </div>								    
+								  </div>	
+
+								  <div class="form-group">
+								    <label for="files" class="col-sm-2 control-label">
+								    	<button class="btn btn-info add-attachment btn-xs">
+											<span class="glyphicon glyphicon-plus-sign"></span>
+											Add Attachment
+										</button>
+								    </label>
+								    <div class="col-sm-10 file-wrapper">
+								      <div>
+								      	<input formnovalidate="formnovalidate" type="file" multiple class="form-control files" name="files">
+								      	<button class="btn btn-danger delete" type="button">
+								      		<span class="glyphicon glyphicon-minus-sign"></span>
+								      		delete
+								      	</button>
+								      </div>
+								    </div>								    
+								  </div>									  
+							</div>
+						</div>					  	
+						<div class="panel panel-default arrange-panel">
+							<!-- Default panel contents -->
+							<div class="panel-heading">											
+								Interview Arrange								
+							</div>
+							<div class="panel-body">								 
+								<div class="form-group">
+						    	<div class="col-sm-10">
+						      		<button class="btn btn-info add-arrange">
+										<span class="glyphicon glyphicon-plus-sign"></span>
+										Add Interview Arrange
+									</button>
+						    	</div>
+					  	</div>
+							</div>
+						</div>				  
+						<div class="form-group">
+					    	<div class="col-sm-10">
+					      		<button type="submit" class="btn btn-primary">
+					      			<span class="glyphicon glyphicon-floppy-save"></span>
+					      			save
+					      		</button>
+					    	</div>
+					  	</div>
 					  
-					  <div class="form-group">
-					    <label for="name" class="col-sm-2 control-label">姓名</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="name" id="name" placeholder="姓名" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="age" class="col-sm-2 control-label">年龄</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="number" class="form-control" name="age" id="age" placeholder="21" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label class="col-sm-2 control-label">性别</label>
-					    <div class="col-sm-10">
-					    	<div class="radio">
-					    		<label><input formnovalidate="formnovalidate" type="radio" value="男" checked="checked" name="gender">男性</label>					    							      
-					    	</div>					    	
-					    	<div class="radio">
-					    		<label><input formnovalidate="formnovalidate" type="radio" value="女" name="gender">女性</label>
-					    	</div>					    						    	
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="marriage" class="col-sm-2 control-label">婚育状况</label>
-					    <div class="col-sm-10">
-					      <select name="marriage" id="marriage" class="form-control" required="required">
-					      		<option value="1">未婚</option>
-					      		<option value="2">已婚</option>
-					      		<option value="3">离婚</option>
-					      		<option value="4">丧偶</option>
-					      </select>
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="department" class="col-sm-2 control-label">应聘部门</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="department" id="department" placeholder="技术部" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="position" class="col-sm-2 control-label">应聘职位</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="position" id="position" placeholder="php研发工程师" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="level" class="col-sm-2 control-label">职位级别</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="level" id="level" placeholder="8-1" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="education" class="col-sm-2 control-label">学历</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="education" id="education" placeholder="学历" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="final-school" class="col-sm-2 control-label">最终毕业院校</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="final_school" id="final-school" placeholder="北京大学" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="college" class="col-sm-2 control-label">本科毕业院校</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="college" id="college" placeholder="北京大学" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="company" class="col-sm-2 control-label">目前任职公司</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="company" id="company" placeholder="兰亭集势" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="place" class="col-sm-2 control-label">面试地点</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="place" id="place" placeholder="北京" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="method" class="col-sm-2 control-label">面试方式</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="method" id="method" placeholder="会面" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="interviewer" class="col-sm-2 control-label">面试官</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="text" class="form-control" name="interviewer" id="interviewer" placeholder="郭去疾" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="time" class="col-sm-2 control-label">时间</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="date" class="form-control" name="time" id="time" required="required">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="evaluation" class="col-sm-2 control-label">评价</label>
-					    <div class="col-sm-10">
-					      <textarea name="evaluation" id="evaluation" rows="5" required="required"></textarea>
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <label for="ceo-time" class="col-sm-2 control-label">安排CEO面试</label>
-					    <div class="col-sm-10">
-					      <input formnovalidate="formnovalidate" type="datetime-local" class="form-control" name="ceo_time" id="ceo-time">
-					    </div>
-					  </div>					  
-					  
-					  <div class="form-group">
-					    <div class="col-sm-offset-2 col-sm-10">
-					      <button type="submit" class="btn btn-primary">保存</button>
-					    </div>
-					  </div>
 					</form>
 				</div>
 			</div>
@@ -192,5 +206,9 @@
 		<script src="static/jquery.js"></script>
 		<script src="static/bootstrap.js"></script>
 		<script src="static/base.js"></script>
+		<script src="static/mustache.js"></script>
+		<script src="static/add_arrange.js"></script>
+		<script src="static/add_file.js"></script>
+		<script src="static/add_interviewee.js"></script>
 	</body>
 </html>

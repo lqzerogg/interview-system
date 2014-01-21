@@ -27,7 +27,7 @@
 			                <li class="link">
 			                    <a href="interview_confirm_list.html">面试确认列表</a>
 			                </li>		 
-			                <li class="link active"> 
+			                <li class="link"> 
 			                    <a href="interview_waiting_list.html">社招面试等待列表</a>
 			                </li>		    
 			                <li class="link">
@@ -41,11 +41,14 @@
 		<div class="container content">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<div class="panel panel-default">
+					<div class="panel panel-default basic-data-panel">
 					  <!-- Default panel contents -->
 					  <div class="panel-heading">基本信息</div>
 					  <div class="panel-body">
 					    <ul class="infos">
+					    	<li class="photo">
+					    		<img src="" alt="">
+					    	</li>
 					    	<li class="clearfix">
 					    		<span class="title">负责人</span>
 					    		<p class="substance">负责人A</p>
@@ -89,28 +92,75 @@
 					    	<li class="clearfix">
 					    		<span class="title">笔试成绩</span>
 					    		<p class="substance">99</p>
-					    	</li>
-					    	<li class="clearfix">
-					    		<span class="title">面试官</span>
-					    		<p class="substance">卢亮</p>
-					    	</li>
-					    	<li class="clearfix">
-					    		<span class="title">评分</span>
-					    		<p class="substance">88.88</p>
-					    	</li>
-					    	<li class="clearfix">
-					    		<span class="title">评价</span>
-					    		<p class="substance">非常十分极其好</p>
-					    	</li>
-					    	<li class="clearfix">
-					    		<span class="title">安排CEO面试</span>
-					    		<p class="substance">2012-12-25 14:00</p>
 					    	</li>					    	
+					    	<li class="clearfix">
+					    		<span class="title">附件一</span>
+					    		<p class="substance"><a href="static/aaa.html">简历.doc</a></p>
+					    	</li>   	
+					    	<li class="clearfix">
+					    		<span class="title">附件二</span>
+					    		<p class="substance"><a href="static/aaa.html">简历2.doc</a></p>
+					    	</li>   	
+					    	<li class="clearfix">
+					    		<span class="title">附件三</span>
+					    		<p class="substance"><a href="static/aaa.html">简历3.doc</a></p>
+					    	</li>   
 					    </ul>
 					  </div>
-					</div>					
+					</div>		
+					<div class="panel panel-default">
+					  	<!-- Default panel contents -->
+					  	<div class="panel-heading">面试历史</div>
+						<div class="panel-body">
+							<dl class="arranges">
+				    			<dt><h2>面试一</h2></dt>
+				    			<dd>
+				    				<ul class="infos">
+						    			<li class="clearfix">
+								    		<span class="title">面试官</span>
+								    		<p class="substance">卢亮</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">面试时间</span>
+								    		<p class="substance">2012-12-22</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">评分</span>
+								    		<p class="substance">88.88</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">面试评价</span>
+								    		<p class="substance">非常十分极其好</p>
+								    	</li>		
+
+						    		</ul>
+				    			</dd>
+				    			<dt><h2>面试二</h2></dt>
+				    			<dd>
+				    				<ul class="infos">
+						    			<li class="clearfix">
+								    		<span class="title">面试官</span>
+								    		<p class="substance">卢亮</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">面试时间</span>
+								    		<p class="substance">2012-12-22</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">评分</span>
+								    		<p class="substance">88.88</p>
+								    	</li>
+								    	<li class="clearfix">
+								    		<span class="title">面试评价</span>
+								    		<p class="substance">非常十分极其好</p>
+								    	</li>
+						    		</ul>
+				    			</dd>
+				    		</dl>
+						</div>
+					</div>				
 					<form class="" role="form" action="">
-						<div class="panel panel-default">
+						<div class="panel panel-default panel-result">
 						  <!-- Default panel contents -->
 						  <div class="panel-heading">填写信息</div>
 						  <div class="panel-body">
@@ -150,7 +200,10 @@
 								<textarea name="ceo-evaluation" id="ceo-evaluation" rows="5"></textarea>
 							</div>
 							<div class="form-group">
-								<button type="submit" class="btn btn-primary">保存</button>
+								<button type="submit" class="btn btn-primary">
+									<span class="glyphicon glyphicon-floppy-save"></span>
+									保存
+								</button>
 							</div>
 						  </div>
 						</div>					  					 					  					
