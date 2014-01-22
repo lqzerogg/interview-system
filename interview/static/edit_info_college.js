@@ -63,7 +63,6 @@ jQuery(function($) {
 				}
 			}			
 		]
-	};
-	debugger
+	};	
 	$('.arrange-panel').addArrange(filedsView);	
 });

@@ -60,6 +60,10 @@ div.none, input.none {
 textarea {
 	width: 100%;
 }
+.form-group .form-date  {
+	padding-left: 15px;
+	padding-right: 15px;
+}
 /* 筛选表单样式 */
 .filter-form {
 	margin-bottom: 50px;

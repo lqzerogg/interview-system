@@ -15,7 +15,11 @@ jQuery(function($) {
 						</div>\
 					</div>';
 
-	$(document).on('click', '.btn-commit', function(e) {		
-		// $('body').prepend(waitingTpl);
+	$('form').validate({
+	  submitHandler: function(form) {	   	
+	    form.submit();
+	    $('body').prepend(waitingTpl);
+	  }
 	});
+
 });
