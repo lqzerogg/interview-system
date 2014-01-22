@@ -9,7 +9,7 @@ div.none, input.none {
 /* 头部logo样式 */
 
 .header {
-	padding: 20px 0;
+	padding: 10px 0;
 }
 .header img {
 	float: left;
@@ -62,6 +62,9 @@ textarea {
 /* 表格样式 */
 .click-enter:hover tr {
 	cursor: pointer;
+}
+.table td .btn {
+	margin-bottom: 2px;
 }
 
 /* 面试者数据信息 */
@@ -156,6 +159,9 @@ textarea {
 		right: 0;
 		top: 160px;
 	}
+	.visible-md {
+		display: none !important;
+	}
 }
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
@@ -180,10 +186,13 @@ textarea {
 	.navigator-container {
 		height: 65px;
 	}
-	/* 主题样式 */
-	.header {
-		padding-top: 65px;
-	}	
+	.navigator {
+		top: 10px;
+	}
+	/* 主体样式 */
+	.container.content {
+		padding-top: 100px
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */

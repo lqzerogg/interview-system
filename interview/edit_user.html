@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="static/base.css">
 	</head>
 	<body>
-		<div class="header jumbotron hidden-xs">
+		<div class="header jumbotron visible-md">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -25,10 +25,10 @@
 					<div class="col-md-2 navigator">                    
 			            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
 			           		<li class="link">
-			                    <a href="add_user.html">新添用户</a>
+			                    <a href="add_user.html">Add New</a>
 			                </li>  		                
 			                <li class="link">
-			                    <a href="user_list.html">用户权限列表</a>
+			                    <a href="user_list.html">User List</a>
 			                </li> 	 	    		                
 			            </ul>            
 			        </div>
@@ -41,37 +41,38 @@
 					<form class="form-horizontal" role="form">
 					  
 					  <div class="form-group">
-					    <label for="account" class="col-sm-2 control-label">账号</label>
+					    <label for="account" class="col-sm-2 control-label">User code</label>
 					    <div class="col-sm-10">
-					      <input type="text" class="form-control" name="account" id="account" placeholder="账号" required="required" value="lqzerogg">
+					      <input type="text" class="form-control" name="account" id="account" placeholder="User code" required="required" value="lqzerogg">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
-					    <label for="name" class="col-sm-2 control-label">姓名</label>
+					    <label for="name" class="col-sm-2 control-label">Name</label>
 					    <div class="col-sm-10">
-					      <input type="text" class="form-control" name="name" id="name" placeholder="姓名" required="required"  value="大帅哥">
+					      <input type="text" class="form-control" name="name" id="name" placeholder="Name" required="required"  value="大帅哥">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group">
-					    <label for="role" class="col-sm-2 control-label">角色</label>
+					    <label for="role" class="col-sm-2 control-label">Role</label>
 					    <div class="col-sm-10">
 					      <select name="role" id="role" class="form-control" required="required">
 					      		<option value="1">CEO</option>					      		
 					      		<option value="2">Recruiter</option>
-					      		<option value="3">Recruiter Director</option>					      		
+					      		<option value="3">Recruiter Director</option>	
+                                <option value="4">Admin</option>									
 					      </select>
 					    </div>
 					  </div>		
 					  <div class="form-group">
-					    <label for="status" class="col-sm-2 control-label">状态</label>
+					    <label for="status" class="col-sm-2 control-label">Status</label>
 					    <div class="col-sm-10">
 					      <div class="radio">
-					      	<label><input type="radio" name="status" claas="status" value="1" checked="checked">开启</label>
+					      	<label><input type="radio" name="status" claas="status" value="1" checked="checked">Open</label>
 					      </div>
 					      <div class="radio">
-					      	<label><input type="radio" name="status" claas="status" value="0">关闭</label>
+					      	<label><input type="radio" name="status" claas="status" value="0">Close</label>
 					      </div>
 					    </div>
 					  </div>			  
@@ -80,14 +81,14 @@
 					    <div class="col-sm-offset-2 col-sm-10">
 					      <button type="submit" class="btn btn-primary">
 					      	<span class="glyphicon glyphicon-floppy-save"></span>
-					      	保存
+					      	Save
 					      </button>
 					    </div>
 					  </div>
 					</form>
 				</div>
 				<div class="col-md-2 right-top">
-					<a href="#" class="btn btn-default back">返回</a>
+					<a href="#" class="btn btn-default back"><span class="glyphicon glyphicon-arrow-left"></span> Back</a>
 				</div>
 			</div>
 		</div>

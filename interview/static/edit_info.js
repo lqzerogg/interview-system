@@ -3,37 +3,37 @@ jQuery(function($) {
 		'fields': [
 			{
 				'label': 'place',
-				'text': '面试地点',
+				'text': 'Place',
 				'name': 'place',
 				'required': false,
 				'isInput': {					
 					'type': 'text',
-					'placeHolder': '北京'
+					'placeHolder': 'Beijing'
 				}
 			},
 			{
 				'label': 'method',
-				'text': '面试方式',
+				'text': 'Methods',
 				'name': 'method',
 				'required': false,
 				'isInput': {					
 					'type': 'text',
-					'placeHolder': '面谈'
+					'placeHolder': 'metting'
 				}
 			},
 			{
 				'label': 'interviewer',
-				'text': '面试官',
+				'text': 'Interviewer',
 				'name': 'interviewer',
 				'required': true,
 				'isInput': {					
 					'type': 'text',
-					'placeHolder': '张良'
+					'placeHolder': 'Alan'
 				}
 			},			
 			{
 				'label': 'interviewer-level',
-				'text': '面试官级别',
+				'text': 'Interviewer level',
 				'name': 'interviewer_level',
 				'required': true,
 				'isSelect': {					
@@ -55,7 +55,7 @@ jQuery(function($) {
 			},
 			{
 				'label': 'time',
-				'text': '面试时间',
+				'text': 'Interview Time',
 				'name': 'time',
 				'required': true,
 				'isInput': {					
@@ -65,11 +65,11 @@ jQuery(function($) {
 			},
 			{
 				'label': 'evaluation',
-				'text': '面试评价',
+				'text': 'Comments',
 				'name': 'evaluation',
 				'required': false,
 				'isTextArea': {
-					'placeHolder': '写入评价'
+					'placeHolder': 'Comments'
 				}
 			}
 		]

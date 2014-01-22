@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
 	<head>
-		<title>校招招面试确认列表</title>
+		<title>Wait for Campus Review</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="static/bootstrap-theme.css">		
 		<link rel="stylesheet" href="static/bootstrap.css">		
 		<link rel="stylesheet" href="static/base.css">
 	</head>
 	<body>
-		<div class="header jumbotron hidden-xs">
+		<div class="header jumbotron visible-md">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -25,14 +25,17 @@
 					<div class="col-md-2 navigator">                    
 			            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
 			                <li class="link">
-			                    <a href="interview_confirm_list.html">面试确认列表</a>
+			                    <a href="interview_confirm_list.html">Wait for Interview Confirming</a>
 			                </li>		 
 			                <li class="link">
-			                    <a href="interview_waiting_list.html">社招面试等待列表</a>
+			                    <a href="interview_waiting_list.html">Wait for Social Interview</a>
 			                </li>		    
 			                <li class="link active">
-			                    <a href="interview_waiting_list_college.html">校招面试等待列表</a>
-			                </li>		    	                
+			                    <a href="interview_waiting_list_college.html">Wait for Campus Review</a>
+			                </li>		    
+			                <li class="link">
+			                    <a href="evaluation_list.html">Evaluation Listing</a>
+			                </li>		                
 			            </ul>            
 			        </div>
 				</div>
@@ -40,33 +43,45 @@
 		</div>
 		<div class="container content">
 			<div class="row">
-				<div class="col-md-10 col-md-offset-2 table-responsive">
-					<table class="table table-hover table-condensed click-enter info-list">
-						<thead>
-							<tr>
-								<th>序号</th>
-								<th>面试时间</th>
-								<th>姓名</th>
-								<th>应聘部门</th>
-								<th>应聘职位</th>
-								<th>学历</th>
-								<th>本科毕业院校</th>
-								<th>状态</th>								
-							</tr>							
-						</thead>
-						<tbody>
-							<tr data-href="evaluation_college.html?id=1">
-								<td>1</td>
-								<td>14:00</td>
-								<td>王某</td>
-								<td>技术部</td>
-								<td>php研发工程师</td>
-								<td>本科</td>
-								<td>北京大学</td>
-								<td>Submiting</td>								
-							</tr>	
-						</tbody>
-					</table>
+				<div class="col-md-10 col-md-offset-2">
+					<div class="panel panel-default basic-data-panel">
+						<!-- Default panel contents -->
+						<div class="panel-heading commit-container">																
+							<button class="btn btn-primary commit">
+								<span class="glyphicon glyphicon-send"></span>
+								send feedback
+							</button>												
+						</div>
+						<div class="panel-body table-responsive">
+							
+							<table class="table table-hover table-condensed click-enter info-list">
+								<thead>
+									<tr>
+										<th>Num</th>
+										<th>Review Time</th>
+										<th>Name</th>
+										<th>Department</th>
+										<th>Position</th>
+										<th>Academic Level</th>
+										<th>University</th>
+										<th>Status</th>								
+									</tr>							
+								</thead>
+								<tbody>
+									<tr data-href="evaluation_college.html?id=1">
+										<td>1</td>
+										<td>14:00</td>
+										<td>王某</td>
+										<td>技术部</td>
+										<td>php研发工程师</td>
+										<td>本科</td>
+										<td>北京大学</td>
+										<td>Submiting</td>								
+									</tr>	
+								</tbody>
+							</table>
+						</div>					
+					</div>
 				</div>
 			</div>
 		</div>

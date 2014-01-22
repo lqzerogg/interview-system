@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
 	<head>
-		<title>校招信息录入</title>
+		<title>Social Evaluation Update</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="static/bootstrap-theme.css">		
 		<link rel="stylesheet" href="static/bootstrap.css">		
 		<link rel="stylesheet" href="static/base.css">
 	</head>
 	<body>
-		<div class="header jumbotron hidden-xs">
+		<div class="header jumbotron visible-md">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -25,22 +25,22 @@
 					<div class="col-md-2 navigator">                    
 			            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
 			                <li class="link">
-			                    <a href="add_interviewee.html">社招信息录入</a>
+			                    <a href="add_interviewee.html">Add Social Info</a>
 			                </li>
 			                <li class="link">
-			                    <a href="add_interviewee_college.html">校招信息录入</a>
+			                    <a href="add_interviewee_college.html">Add Campus Info</a>
 			                </li>
 			                <li class="link">
-			                    <a href="interview_confirm_waiting_list.html">等该提交面试确认列表</a>
+			                    <a href="interview_confirm_waiting_list.html">Wait for Submiting Interview Confirming</a>
 			                </li>			                		            
 			                <li class="link">
-			                    <a href="interview_scheduling.html">等待社招面试排程</a>
+			                    <a href="interview_scheduling.html">Wait for Interview Arranging</a>
 			                </li>		           
 			                <li class="link">
-			                    <a href="interview_scheduling_college.html">等待校招面试排程</a>
+			                    <a href="interview_scheduling_college.html">Wait for Review Arrangeing</a>
 			                </li>			                		   
 			                <li class="link">
-			                    <a href="evaluation_list.html">信息列表</a>
+			                    <a href="evaluation_list.html">Evaluation Listing</a>
 			                </li>		 	    		                
 			            </ul>            
 			        </div>
@@ -53,78 +53,86 @@
 					<form class="form-horizontal" role="form">
 						<div class="panel panel-default basic-data-panel">
 							<!-- Default panel contents -->
-							<div class="panel-heading">基础资料录入</div>
+							<div class="panel-heading">Personal Info</div>
 							<div class="panel-body">
-							  <div class="form-group">
-							    <label for="name" class="col-sm-2 control-label">姓名</label>
+							
+									  <div class="form-group">
+							    <label for="name" class="col-sm-2 control-label">Recruiter</label>
 							    <div class="col-sm-10">
 							      <input formnovalidate="formnovalidate" type="text" class="form-control" name="name" id="name" placeholder="姓名" required="required">
 							    </div>
 							  </div>
 							  
 							  <div class="form-group">
-							    <label for="age" class="col-sm-2 control-label">年龄</label>
+							    <label for="name" class="col-sm-2 control-label">Name</label>
+							    <div class="col-sm-10">
+							      <input formnovalidate="formnovalidate" type="text" class="form-control" name="name" id="name" placeholder="姓名" required="required">
+							    </div>
+							  </div>
+							  
+							  <div class="form-group">
+							    <label for="age" class="col-sm-2 control-label">Age</label>
 							    <div class="col-sm-10">
 							      <input formnovalidate="formnovalidate" type="number" class="form-control" name="age" id="age" placeholder="21" required="required">
 							    </div>
 							  </div>
 							  
 							  <div class="form-group">
-							    <label class="col-sm-2 control-label">性别</label>
+							    <label class="col-sm-2 control-label">Gender</label>
 							    <div class="col-sm-10">
 							    	<div class="radio">
-							    		<label><input formnovalidate="formnovalidate" type="radio" value="男" checked="checked" name="gender">男性</label>					    							      
+							    		<label><input formnovalidate="formnovalidate" type="radio" value="Male" checked="checked" name="gender">Male</label>					    							      
 							    	</div>					    	
 							    	<div class="radio">
-							    		<label><input formnovalidate="formnovalidate" type="radio" value="女" name="gender">女性</label>
+							    		<label><input formnovalidate="formnovalidate" type="radio" value="Female" name="gender">Female</label>
 							    	</div>					    						    	
 							    </div>
 							  </div>
 							  
 							  <div class="form-group">
-							    <label for="department" class="col-sm-2 control-label">应聘部门</label>
+							    <label for="department" class="col-sm-2 control-label">Department</label>
 							    <div class="col-sm-10">
 							      <input formnovalidate="formnovalidate" type="text" class="form-control" name="department" id="department" placeholder="技术部" required="required">
 							    </div>
 							  </div>
 							  
 							  <div class="form-group">
-							    <label for="position" class="col-sm-2 control-label">应聘职位</label>
+							    <label for="position" class="col-sm-2 control-label">Position</label>
 							    <div class="col-sm-10">
 							      <input formnovalidate="formnovalidate" type="text" class="form-control" name="position" id="position" placeholder="php研发工程师" required="required">
 							    </div>
 							  </div>
 
 							  <div class="form-group">
-							    <label for="level" class="col-sm-2 control-label">职位级别</label>
+							    <label for="level" class="col-sm-2 control-label">Band</label>
 							    <div class="col-sm-10">
 							      <input formnovalidate="formnovalidate" type="text" class="form-control" name="level" id="level" placeholder="8-1" required="required">
 							    </div>
 							  </div>
 							  
 							  <div class="form-group">
-							    <label for="education" class="col-sm-2 control-label">学历</label>
+							    <label for="education" class="col-sm-2 control-label">Academic Level</label>
 							    <div class="col-sm-10">
-							      <input formnovalidate="formnovalidate" type="text" class="form-control" name="education" id="education" placeholder="学历" required="required">
+							      <input formnovalidate="formnovalidate" type="text" class="form-control" name="education" id="education" placeholder="Academic Level" required="required">
 							    </div>
 							  </div>
 							  
 							  <div class="form-group">
-							    <label for="final-school" class="col-sm-2 control-label">最终毕业院校</label>
+							    <label for="final-school" class="col-sm-2 control-label">Final Colleges</label>
 							    <div class="col-sm-10">
 							      <input formnovalidate="formnovalidate" type="text" class="form-control" name="final_school" id="final-school" placeholder="北京大学" required="required">
 							    </div>
 							  </div>
 							  
 							  <div class="form-group">
-							    <label for="college" class="col-sm-2 control-label">本科毕业院校</label>
+							    <label for="college" class="col-sm-2 control-label">University</label>
 							    <div class="col-sm-10">
 							      <input formnovalidate="formnovalidate" type="text" class="form-control" name="college" id="college" placeholder="北京大学" required="required">
 							    </div>
 							  </div>
 							  
 							  <div class="form-group">
-							    <label for="written-score" class="col-sm-2 control-label">笔试成绩</label>
+							    <label for="written-score" class="col-sm-2 control-label">Written Scores</label>
 							    <div class="col-sm-10">
 							      <input formnovalidate="formnovalidate" type="number" class="form-control" name="written_score" id="written-score" placeholder="笔试成绩" required="required">
 							    </div>
@@ -134,30 +142,18 @@
 						<div class="panel panel-default arrange-panel">
 							<!-- Default panel contents -->
 							<div class="panel-heading">											
-								面试安排								
+								Interview Arrange								
 							</div>
 							<div class="panel-body">
-								<div class="wrapper none" style="display: block;">
-									<div class="form-group">						
-										<label for="place" class="col-sm-2 control-label">面试地点</label>
-										<div class="col-sm-10">
-											<input formnovalidate="formnovalidate" type="text" class="form-control place" name="place" placeholder="北京">
-										</div>							
-									</div>					   							
+								<div class="wrapper none" style="display: block;">													   										   						
 									<div class="form-group">								
-										<label for="method" class="col-sm-2 control-label">面试方式</label>
-										<div class="col-sm-10">															
-											<input formnovalidate="formnovalidate" type="text" class="form-control method" name="method" placeholder="面谈">																																			
-										</div>							
-									</div>					   							
-									<div class="form-group">								
-										<label for="interviewer" class="col-sm-2 control-label">面试官</label>								
+										<label for="interviewer" class="col-sm-2 control-label">Interviewer</label>								
 										<div class="col-sm-10">																			
 											<input formnovalidate="formnovalidate" required="required" type="text" class="form-control interviewer" name="interviewer" placeholder="张良">																																			
 										</div>							
 									</div>					   							
 									<div class="form-group">								
-										<label for="interviewer-level" class="col-sm-2 control-label">面试官级别</label>								
+										<label for="interviewer-level" class="col-sm-2 control-label">Interviewer Level</label>								
 										<div class="col-sm-10">																												
 											<select name="interviewer_level" required="required" class="interviewer-level form-control">									      											      	
 												<option value="0">总裁/总监级别</option>									      											      	
@@ -167,13 +163,19 @@
 										</div>							
 									</div>					   							
 									<div class="form-group">								
-										<label for="time" class="col-sm-2 control-label">面试时间</label>								
+										<label for="time" class="col-sm-2 control-label">Interviewer Time</label>								
 										<div class="col-sm-10">																			
 											<input formnovalidate="formnovalidate" required="required" type="date" class="form-control time" name="time" placeholder="">																																			
 										</div>							
-									</div>					   							
+									</div>					   					
+									<div class="form-group">						
+										<label for="score" class="col-sm-2 control-label">Interview Score</label>
+										<div class="col-sm-10">
+											<input formnovalidate="formnovalidate" type="number" class="form-control place" name="score" placeholder="100.00">
+										</div>							
+									</div>			
 									<div class="form-group">								
-										<label for="evaluation" class="col-sm-2 control-label">面试评价</label>								
+										<label for="evaluation" class="col-sm-2 control-label">Comments</label>								
 										<div class="col-sm-10">																																					
 											<textarea name="evaluation" rows="5" class="evaluation" form-control placeholder="写入评价"></textarea>																	
 										</div>							
@@ -182,7 +184,7 @@
 										<div class="col-sm-offset-2 col-sm-10">						    
 											<button type="button" class="btn btn-warning delete-arrange">						      	
 												<span class="glyphicon glyphicon-minus-sign"></span>						    	
-												删除此安排						    
+												Delete				    
 											</button>						    
 										</div>						
 									</div>					
@@ -191,7 +193,7 @@
 							    	<div class="col-sm-10">
 							      		<button class="btn btn-info add-arrange">
 											<span class="glyphicon glyphicon-plus-sign"></span>
-											添加面试安排
+											Add Interview Arrange
 										</button>
 							    	</div>
 					  			</div>
@@ -201,7 +203,7 @@
 					    	<div class="col-sm-10">
 					      		<button type="submit" class="btn btn-primary">
 					      			<span class="glyphicon glyphicon-floppy-save"></span>
-					      			保存
+					      			Save
 					      		</button>
 					    	</div>
 					  	</div>					
@@ -209,7 +211,7 @@
 					</form>
 				</div>
 				<div class="col-md-2 right-top">					
-					<a href="#" class="btn btn-default back">返回</a>
+					<a href="#" class="btn btn-default back"><span class="glyphicon glyphicon-arrow-left"></span> Back</a>
 				</div>
 			</div>
 		</div>

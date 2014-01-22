@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
 	<head>
-		<title>等待校招面试排程</title>
+		<title>Wait for Review Arrangeing</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="static/bootstrap-theme.css">		
 		<link rel="stylesheet" href="static/bootstrap.css">		
 		<link rel="stylesheet" href="static/base.css">
 	</head>
 	<body>
-		<div class="header jumbotron hidden-xs">
+		<div class="header jumbotron visible-md">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -25,22 +25,22 @@
 					<div class="col-md-2 navigator">                    
 			            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
 			                <li class="link">
-			                    <a href="add_interviewee.html">社招信息录入</a>
+			                    <a href="add_interviewee.html">Add Social Info</a>
 			                </li>
 			                <li class="link">
-			                    <a href="add_interviewee_college.html">校招信息录入</a>
+			                    <a href="add_interviewee_college.html">Add Campus Info</a>
 			                </li>
 			                <li class="link">
-			                    <a href="interview_confirm_waiting_list.html">等该提交面试确认列表</a>
+			                    <a href="interview_confirm_waiting_list.html">Wait for Submiting Interview Confirming</a>
 			                </li>			                		            
 			                <li class="link">
-			                    <a href="interview_scheduling.html">等待社招面试排程</a>
+			                    <a href="interview_scheduling.html">Wait for Interview Arranging</a>
 			                </li>		           
 			                <li class="link active">
-			                    <a href="interview_scheduling_college.html">等待校招面试排程</a>
+			                    <a href="interview_scheduling_college.html">Wait for Review Arrangeing</a>
 			                </li>			                		   
 			                <li class="link">
-			                    <a href="evaluation_list.html">信息列表</a>
+			                    <a href="evaluation_list.html">Evaluation Listing</a>
 			                </li>		 	    		                
 			            </ul>            
 			        </div>
@@ -52,89 +52,103 @@
 				<div class="col-md-10 col-md-offset-2">
 				<form action="interview_scheduling_college.html" class="form-inline filter-form" role="form">
 						<div class="row">
-							<div class="col-md-2">
+							<div class="col-md-4">
 								<div class="input-group">
-								  <span class="input-group-addon">负责人</span>
+								  <span class="input-group-addon">Recruiter</span>
 								  <input type="text" class="form-control" name="responsible" placeholder="负责人A">
 								</div>
 							</div>
-							<div class="col-md-2">
+							<div class="col-md-4">
 								<div class="input-group">
-								  <span class="input-group-addon">姓名</span>
+								  <span class="input-group-addon">Name</span>
 								  <input type="text" class="form-control" name="name" placeholder="张三">
 								</div>
 							</div>
-							<div class="col-md-2">
+							<div class="col-md-4">
 								<div class="input-group">
-								  <span class="input-group-addon">部门</span>
+								  <span class="input-group-addon">Department</span>
 								  <input type="text" class="form-control" name="department" placeholder="技术部">
 								</div>
-							</div>							
-							<div class="col-md-3">
+							</div>														
+						</div>						
+						<div class="row">
+							<div class="col-md-4">
 								<div class="input-group">
-								  <span class="input-group-addon">时间排序</span>
+								  <span class="input-group-addon">Time Order</span>
 								  <select name="sort" id="time-sort" class="form-control">
-								  	<option value="0">无序</option>
-								  	<option value="1">正序</option>
-								  	<option value="2">逆序</option>
+								  	<option value="0">No Rank</option>
+								  	<option value="1">Acs</option>
+								  	<option value="2">Desc</option>
 								  </select>
 								</div>
 							</div>
-							<div class="col-md-1">
+							<div class="col-md-2">
 								<div class="input-group">								  
-								  <button class="btn btn-info filter-button">筛选</button>
+								  <button class="btn btn-info filter-button">
+								  	<span class="glyphicon glyphicon-search"></span>
+								  	Search
+								  </button>	
 								</div>
 							</div>
-						</div>						
+						</div>
 					</form>
-					<form action="">
-						<div class="row commit-container">
-							<div class="col-md-12">
-								<button class="btn btn-primary commit">批量提交</button>
+					<form action="">						
+						<div class="panel panel-default basic-data-panel">
+							<!-- Default panel contents -->
+							<div class="panel-heading commit-container">																
+								<button class="btn btn-primary commit">
+									<span class="glyphicon glyphicon-plus"></span>
+									Batch Submit
+								  </button>
 							</div>
-						</div>
-						<div class="table-responsive">
-							
-							<table class="table table-hover table-condensed selecting-table">
-								<thead>
-									<tr>
-										<th><button class="btn btn-default btn-xs all">全选</button></th>
-										<th>招聘负责人</th>									
-										<th>姓名</th>
-										<th>姓别</th>
-										<th>年龄</th>
-										<th>职位级别</th>
-										<th>学历</th>
-										<th>应聘部门</th>
-										<th>应聘职位</th>
-										<th>本科毕业院校</th>
-										<th>笔试成绩</th>	
-										<th>安排面试日期</th>								
-										<th>操作</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr data-href="#">
-										<td><input type="checkbox" name="ids" id="person1" value="1"></td>	
-										<td>负责人1</td>			
-										<td>王某</td>
-										<td>男</td>
-										<td>28</td>
-										<td>8-2</td>
-										<td>本科</td>										
-										<td>技术部</td>
-										<td>php研发工程师</td>
-										<td>北京大学</td>
-										<td>99</td>										
-										<td>2012-12-22 15:00</td>
-										<td>										
-											<a href="edit_info_college.html?id=1" class="btn btn-info btn-xs change-info">更改</a>
-											<a href="#delete" class="btn btn-danger btn-xs delete">删除</a>			
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
+							<div class="panel-body table-responsive">
+								<table class="table table-hover table-condensed selecting-table">
+									<thead>
+										<tr>
+											<th><button class="btn btn-default btn-xs all"><span class="glyphicon glyphicon-th"></span> All</button></th>
+											<th>Recruiter</th>									
+											<th>Name</th>
+											<th>Gender</th>
+											<th>Age</th>
+											<th>Band</th>
+											<th>Academic Level</th>
+											<th>Department</th>
+											<th>Position</th>
+											<th>University</th>
+											<th>Written Scores</th>	
+											<th>Arrangee Review Time</th>								
+											<th>Operate</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr data-href="#">
+											<td><input type="checkbox" name="ids" id="person1" value="1"></td>	
+											<td>负责人1</td>			
+											<td>王某</td>
+											<td>男</td>
+											<td>28</td>
+											<td>8-2</td>
+											<td>本科</td>										
+											<td>技术部</td>
+											<td>php研发工程师</td>
+											<td>北京大学</td>
+											<td>99</td>										
+											<td>2012-12-22 15:00</td>
+											<td>										
+												<a href="edit_info_college.html?id=1" class="btn btn-info btn-xs change-info">
+											    	<span class="glyphicon glyphicon-floppy-save"></span>
+											    	Update
+											    </a>
+												<a href="#delete" class="btn btn-danger btn-xs delete">
+													<span class="glyphicon glyphicon-minus-sign"></span>
+													Delete
+												</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>						
 					</form>
 				</div>
 			</div>
