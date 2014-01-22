@@ -25,11 +25,42 @@
 					<div class="col-md-2 navigator">                    
 			            <ul class="nav-bar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="50" id="scroll-spy">		                
 			                <li class="link">
+			                    <a href="add_interviewee.html">Add Social Info</a>
+			                </li>
+			                <li class="link">
+			                    <a href="add_interviewee_college.html">Add Campus Info</a>
+			                </li>
+			                <li class="link">
+			                    <a href="interview_confirm_waiting_list.html">Wait for Submiting Interview Confirming</a>
+			                </li>			                		            
+			                <li class="link">
+			                    <a href="interview_scheduling.html">Wait for Interview Arranging</a>
+			                </li>		           
+			                <li class="link">
+			                    <a href="interview_scheduling_college.html">Wait for Review Arrangeing</a>
+			                </li>			                		   
+			                <li class="link">
+			                    <a href="evaluation_list.html">Evaluation Listing</a>
+			                </li>	
+
+			                <li class="link">
+			                    <a href="interview_confirm_list.html">Wait for Interview Confirming</a>
+			                </li>		 
+			                  
+			                <li class="link"> 
+			                    <a href="interview_waiting_list.html">Wait for Social Interview</a>
+			                </li>		    
+			                <li class="link">
+			                    <a href="interview_waiting_list_college.html">Wait for Campus Review</a>
+			                </li>		    	
+			             	
+
+			                <li class="link">
 			                    <a href="add_user.html">Add New</a>
 			                </li>  		                
 			                <li class="link active">
 			                    <a href="user_list.html">User List</a>
-			                </li>  		                
+			                </li> 	 	    		                
 			            </ul>            
 			        </div>
 				</div>
@@ -49,13 +80,13 @@
 							<div class="col-md-4">
 								<div class="input-group">
 								  <span class="input-group-addon">Name</span>
-								  <input class="form-control" type="text" placeholder="模糊查询" name="name" id="name-filter">
+								  <input class="form-control" type="text" placeholder="Fuzzy Query" name="name" id="name-filter">
 								</div>
 							</div>							
 							<div class="col-md-4">
 								<div class="input-group">
 								  <span class="input-group-addon">User Code</span>
-								  <input class="form-control" type="text" placeholder="请输入英文和数字" name="account" id="account-filter">
+								  <input class="form-control" type="text" placeholder="account" name="account" id="account-filter">
 								</div>
 							</div>							
 						</div>	
@@ -93,8 +124,12 @@
 						</div>					
 					</form>
 					<form action="add_user.html" class="user-form">
-						<div class="table-responsive">
-							
+						<div class="panel panel-default basic-data-panel">
+						<!-- Default panel contents -->
+						<div class="panel-heading">																
+							user list
+						</div>
+						<div class="panel-body table-responsive">
 							<table class="table table-hover table-condensed info-list">
 								<thead>
 									<tr>
@@ -109,7 +144,7 @@
 								<tbody>
 									<tr data-href="#">
 										<td>1</td>	
-										<td>启用</td>	
+										<td>open</td>	
 										<td>lqzerogg</td>		
 										<td>郭去疾</td>
 										<td>CEO</td>
@@ -127,6 +162,7 @@
 								</tbody>
 							</table>
 						</div>
+					</div>						
 					</form>
 				</div>
 			</div>

@@ -41,7 +41,26 @@
 			                </li>			                		   
 			                <li class="link">
 			                    <a href="evaluation_list.html">Evaluation Listing</a>
-			                </li>		 	    		                
+			                </li>	
+
+			                <li class="link">
+			                    <a href="interview_confirm_list.html">Wait for Interview Confirming</a>
+			                </li>		 
+			                  
+			                <li class="link"> 
+			                    <a href="interview_waiting_list.html">Wait for Social Interview</a>
+			                </li>		    
+			                <li class="link">
+			                    <a href="interview_waiting_list_college.html">Wait for Campus Review</a>
+			                </li>		    	
+			       	
+
+			                <li class="link">
+			                    <a href="add_user.html">Add New</a>
+			                </li>  		                
+			                <li class="link">
+			                    <a href="user_list.html">User List</a>
+			                </li> 	 	    	   		                
 			            </ul>            
 			        </div>
 				</div>
@@ -58,7 +77,7 @@
 								  <div class="form-group">
 								    <label for="name" class="col-sm-2 control-label">Name</label>
 								    <div class="col-sm-10">
-								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="name" id="name" placeholder="姓名" required="required">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="name" id="name" placeholder="Jackson" required="required">
 								    </div>
 								  </div>
 								  
@@ -96,14 +115,14 @@
 								  <div class="form-group">
 								    <label for="department" class="col-sm-2 control-label">Department</label>
 								    <div class="col-sm-10">
-								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="department" id="department" placeholder="技术部" required="required">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="department" id="department" placeholder="Technology" required="required">
 								    </div>
 								  </div>
 								  
 								  <div class="form-group">
 								    <label for="position" class="col-sm-2 control-label">Position</label>
 								    <div class="col-sm-10">
-								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="position" id="position" placeholder="php研发工程师" required="required">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="position" id="position" placeholder="php developer" required="required">
 								    </div>
 								  </div>
 								  
@@ -124,21 +143,21 @@
 								  <div class="form-group">
 								    <label for="final-school" class="col-sm-2 control-label">Final  Colleges</label>
 								    <div class="col-sm-10">
-								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="final_school" id="final-school" placeholder="北京大学" required="required">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="final_school" id="final-school" placeholder="Beijing University" required="required">
 								    </div>
 								  </div>
 								  
 								  <div class="form-group">
 								    <label for="college" class="col-sm-2 control-label">University</label>
 								    <div class="col-sm-10">
-								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="college" id="college" placeholder="北京大学" required="required">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="college" id="college" placeholder="Beijing University" required="required">
 								    </div>
 								  </div>
 								  
 								  <div class="form-group">
 								    <label for="company" class="col-sm-2 control-label">Current Company</label>
 								    <div class="col-sm-10">
-								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="company" id="company" placeholder="兰亭集势" required="required">
+								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="company" id="company" placeholder="Light in the box" required="required">
 								    </div>
 								  </div>													 
 							</div>
@@ -153,19 +172,19 @@
 									<div class="form-group">						
 										<label for="place" class="col-sm-2 control-label">Interview Place</label>
 										<div class="col-sm-10">
-											<input formnovalidate="formnovalidate" type="text" class="form-control place" name="place" placeholder="北京">
+											<input formnovalidate="formnovalidate" type="text" class="form-control place" name="place" placeholder="Beijing">
 										</div>							
 									</div>					   							
 									<div class="form-group">								
 										<label for="method" class="col-sm-2 control-label">Interview Methods</label>
 										<div class="col-sm-10">															
-											<input formnovalidate="formnovalidate" type="text" class="form-control method" name="method" placeholder="面谈">																																			
+											<input formnovalidate="formnovalidate" type="text" class="form-control method" name="method" placeholder="meeting">																																			
 										</div>							
 									</div>					   							
 									<div class="form-group">								
 										<label for="interviewer" class="col-sm-2 control-label">Interviewer</label>								
 										<div class="col-sm-10">																			
-											<input formnovalidate="formnovalidate" required="required" type="text" class="form-control interviewer" name="interviewer" placeholder="张良">																																			
+											<input formnovalidate="formnovalidate" required="required" type="text" class="form-control interviewer" name="interviewer" placeholder="Zhang Liang">																																			
 										</div>							
 									</div>					   							
 									<div class="form-group">								
@@ -181,13 +200,13 @@
 									<div class="form-group">								
 										<label for="time" class="col-sm-2 control-label">Interviewer Time</label>								
 										<div class="col-sm-10">																			
-											<input formnovalidate="formnovalidate" required="required" type="date" class="form-control time" name="time" placeholder="">																																			
+											<input formnovalidate="formnovalidate" required="required" type="date" class="form-control time" name="time" placeholder="comment">																																			
 										</div>							
 									</div>					   							
 									<div class="form-group">								
 										<label for="evaluation" class="col-sm-2 control-label">Comments</label>								
 										<div class="col-sm-10">																																					
-											<textarea name="evaluation" rows="5" class="evaluation" form-control placeholder="写入评价"></textarea>																	
+											<textarea name="evaluation" rows="5" class="evaluation" form-control placeholder="comment"></textarea>																	
 										</div>							
 									</div>					   					    
 									<div class="form-group">						    
