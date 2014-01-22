@@ -9,7 +9,7 @@ jQuery(function($) {
 									</div>\
 								{{/isInput}}\
 								{{#isDate}}\
-									<div class="input-group date form-date col-sm-10" data-date="" data-date-format="dd MM yyyy" data-link-field="{{dateID}}" data-link-format="yyyy-mm-dd">\
+									<div class="input-group date form-date col-sm-10" data-date-format="dd MM yyyy - HH:ii p" data-link-field="{{dateID}}" data-link-format="yyyy-mm-dd hh:ii">\
 					                    <input class="form-control" size="16" type="text" value="" readonly>\
 					                    <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>\
 										<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>\
@@ -67,14 +67,14 @@ jQuery(function($) {
 					/*更新interview的下标的顺寻*/
 					$panel.trigger('update')
 					/*更新时间插件*/
-					.find('.form-date').datetimepicker({
+					.find('.form-date').datetimepicker({        
 				        weekStart: 1,
 				        todayBtn:  1,
 						autoclose: 1,
 						todayHighlight: 1,
 						startView: 2,
-						minView: 2,
-						forceParse: 0
+						forceParse: 0,
+				        showMeridian: 1
 				    });
 				}
 				

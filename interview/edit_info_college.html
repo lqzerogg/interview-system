@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="static/bootstrap-theme.css">		
 		<link rel="stylesheet" href="static/bootstrap.css">		
+		<link rel="stylesheet" href="static/datetimepicker.css">		
 		<link rel="stylesheet" href="static/base.css">
 	</head>
 	<body>
@@ -147,6 +148,10 @@
 								Interview Arrange								
 							</div>
 							<div class="panel-body">
+								<div class="hide identity">
+								  	<input type="text" name="id" id="id" value="1">
+								</div>
+								
 								<div class="wrapper none" style="display: block;">
 													   							
 									<div class="form-group">								
@@ -167,7 +172,7 @@
 									</div>					   							
 									<div class="form-group">								
 										<label for="time" class="col-sm-2 control-label">Interviewer Time</label>								
-										<div class="input-group date form-date col-sm-10" data-date="" data-date-format="dd MM yyyy" data-link-field="form-date-0" data-link-format="yyyy-mm-dd">
+										<div class="input-group date form-date col-sm-10" data-date-format="dd MM yyyy - HH:ii p" data-link-field="form-date-0" data-link-format="yyyy-mm-dd hh:ii">
 						                    <input class="form-control" size="16" type="text" value="" readonly>
 						                    <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
 											<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>

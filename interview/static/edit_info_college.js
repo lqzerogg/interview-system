@@ -66,13 +66,13 @@ jQuery(function($) {
 	};	
 	$(document).addArrange(filedsView);	
 
-	$('.form-date').datetimepicker({
+	$('.form-date').datetimepicker({        
         weekStart: 1,
         todayBtn:  1,
 		autoclose: 1,
 		todayHighlight: 1,
 		startView: 2,
-		minView: 2,
-		forceParse: 0
+		forceParse: 0,
+        showMeridian: 1
     });
 });
