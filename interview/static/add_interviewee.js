@@ -75,5 +75,5 @@ jQuery(function($) {
 		]
 	};
 
-	$(document).addArrange(filedsView);	
+	// $(document).addArrange(filedsView);	
 });

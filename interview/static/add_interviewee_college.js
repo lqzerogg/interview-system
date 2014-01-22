@@ -65,5 +65,5 @@ jQuery(function($) {
 		]
 	};
 
-	$('.arrange-panel').addArrange(filedsView);	
+	// $('.arrange-panel').addArrange(filedsView);	
 });
