@@ -34,8 +34,14 @@ div.none, input.none {
 }
 
 /* 导航样式 */
-.navigator {
-	position: absolute;	
+.scroll-spy {
+
+}
+.navigator-container {
+	position: absolute;
+	width: 100%;
+}
+.navigator {	
 	margin-left: -15px;	
 }
 .content {
@@ -138,9 +144,10 @@ textarea {
 @media (max-width: 992px) {
 	/* 导航样式 */
 	.navigator-container {
-		background: #eee;
-		position: fixed;
-		top: 0;
+		position: static;
+	}
+	.scroll-spy {
+		background: #eee;		
 		width: 100%;
 		z-index: 10;
 	}
@@ -161,8 +168,16 @@ textarea {
 		top: 0;
 	}
 
+	/* 主体样式 */
+	.container.content {
+		margin-top: 20px;
+	}
+
 	/* 表单样式 */
-	.filter-form .row .col-md-2, .filter-form .row .col-md-3 {
+	.filter-form .row {
+		margin-bottom: 0;
+	}
+	.filter-form .row .col-md-2, .filter-form .row .col-md-3, .filter-form .row .col-md-4, .filter-form .row .col-md-5 {
 		margin-bottom: 10px;
 	}
 	.form-inline select.form-control {
@@ -178,37 +193,21 @@ textarea {
 	.visible-md {
 		display: none !important;
 	}
+	/* 返回样式 */
+	.right-top {
+		top: 125px;
+		z-index: 11;
+	}
 }
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
 	/* 导航样式 */
-	.navigator-container {
-		height: 90px;
-	}
-	/* 主题样式 */
-	.container.content {
-		margin-top: 110px;
-	}		
-	/* 返回样式 */
-	.right-top {
-		top: 55px;
-		z-index: 11;
-	}
+	/* 主题样式 */		
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 769px) and (max-width: 992px) { 
-	/* 导航样式 */
-	.navigator-container {
-		height: 65px;
-	}
-	.navigator {
-		top: 10px;
-	}
-	/* 主体样式 */
-	.container.content {
-		padding-top: 100px
-	}
+	/* 导航样式 */	
 }
 
 /* Large devices (large desktops, 1200px and up) */
