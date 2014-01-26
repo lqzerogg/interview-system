@@ -60,12 +60,14 @@ jQuery(function($) {
 				var $panel = $('.arrange-panel');
 				if($panel.find('.wrapper').size() >= 5) {
 					alert('interview cannot be over 5 times.')
-				}else {					
+				}else {			
+					/*时间插件需要不同的ID*/
 					$.each(filedsView.fields, function(key, value) {
 						 if(this['isDate']) {
 						 	value['isDate']['dateID'] = value['isDate']['dateIDTpl'] + times++;
 						 }
 					});
+					/*渲染*/
 					$(Mustache.render(fieldsTpl, filedsView))
 						.insertBefore($(this).closest('.form-group'))
 						.slideDown('fast');		
@@ -74,33 +76,7 @@ jQuery(function($) {
 					$.validator.addClassRules("check-in-list", {
 					  	'checkInList': true
 					});
-					$panel.trigger('update')
-					/*更新时间插件*/
-					.find('.form-date').datetimepicker({        
-				        weekStart: 1,
-				        todayBtn:  1,
-						autoclose: 1,
-						todayHighlight: 1,
-						startView: 2,
-						forceParse: 0,
-				        showMeridian: 1
-				    })
-				    /*更新typeahead插件*/
-				    .end().find('input[data-provide="typeahead"]').each(function() {
-						var map = $(this).data('source') || $(this).closest('.data-source').data('source'),
-							sourceArray = [];
-						$.each(map, function(key) {
-							sourceArray.push(key);
-						});
-						$(this).data('source', map);
-						$(this).typeahead({
-							source: sourceArray,
-							updater: function(item) {
-								this.$element.closest('.form-group').find('[type="hidden"]').prop('value', map[item]);
-								return item;
-							}
-						});
-					});	
+					$panel.trigger('update');					
 				}				
 			})
 			/*删除面试安排*/
@@ -116,7 +92,7 @@ jQuery(function($) {
 					});
 				}		
 			})
-			/*更新interview下标顺序的方法.*/
+			/*更新interview下标顺序、时间插件和自动完成插件的方法.*/
 			.find('.arrange-panel').on('update', function() {
 
 				$(this).find('.wrapper').each(function(index) {
@@ -125,6 +101,32 @@ jQuery(function($) {
 						$(this).prop('name', 'interview[' + index + ']' + '[' + $(this).data('name') + ']');
 					});
 				});
+				/*更新时间插件*/
+				$(this).find('.form-date').datetimepicker({        
+			        weekStart: 1,
+			        todayBtn:  1,
+					autoclose: 1,
+					todayHighlight: 1,
+					startView: 2,
+					forceParse: 0,
+			        showMeridian: 1
+			    })
+			    /*更新typeahead插件*/
+			    $(this).find('input[data-provide="typeahead"]').each(function() {
+					var map = $(this).data('source') || $(this).closest('.data-source').data('source'),
+						sourceArray = [];
+					$.each(map, function(key) {
+						sourceArray.push(key);
+					});
+					$(this).data('source', map);
+					$(this).typeahead({
+						source: sourceArray,
+						updater: function(item) {
+							this.$element.closest('.form-group').find('[type="hidden"]').prop('value', map[item]);
+							return item;
+						}
+					});
+				});	
 			});			
 		});		
 	};
