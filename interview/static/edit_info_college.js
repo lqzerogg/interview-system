@@ -6,8 +6,7 @@ jQuery(function($) {
 				'text': 'Interviewer',
 				'name': 'interviewer',
 				'required': true,
-				'isInput': {					
-					'type': 'text',
+				'isCheckInList': {					
 					'placeHolder': 'Alan'
 				}
 			},			

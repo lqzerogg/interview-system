@@ -16,6 +16,12 @@ jQuery(function($) {
 					                </div>\
 									<input {{#required}}required="required"{{/required}} data-name="{{name}}" type="hidden" id="{{dateID}}" value="" />\
 								{{/isDate}}\
+								{{#isCheckInList}}\
+									<div class="col-sm-10">\
+										<input data-name="for-validate-" autocomplete="off" formnovalidate="formnovalidate" {{#required}}required="required"{{/required}} type="text" data-provide="typeahead" class="check-in-list form-control" placeholder="{{placeHolder}}">\
+									</div>\
+									<input {{#required}}required="required"{{/required}} type="hidden" class="none {{label}}" data-name="{{name}}" name="">\
+								{{/isCheckInList}}\
 								{{#isSelect}}\
 									<div class="col-sm-10">\
 										<select data-name="{{name}}" {{#required}}required="required"{{/required}} class="{{label}} form-control">\
@@ -65,6 +71,9 @@ jQuery(function($) {
 						.slideDown('fast');		
 
 					/*更新interview的下标的顺寻*/
+					$.validator.addClassRules("check-in-list", {
+					  	'checkInList': true
+					});
 					$panel.trigger('update')
 					/*更新时间插件*/
 					.find('.form-date').datetimepicker({        
@@ -75,19 +84,35 @@ jQuery(function($) {
 						startView: 2,
 						forceParse: 0,
 				        showMeridian: 1
-				    });
-				}
-				
+				    })
+				    /*更新typeahead插件*/
+				    .end().find('input[data-provide="typeahead"]').each(function() {
+						var map = $(this).closest('.data-source').data('source'),
+							sourceArray = [];
+						$.each(map, function(key) {
+							sourceArray.push(key);
+						});
+						$(this).data('source', map);
+						$(this).typeahead({
+							source: sourceArray,
+							updater: function(item) {
+								this.$element.closest('.form-group').find('[type="hidden"]').prop('value', map[item]);
+								return item;
+							}
+						});
+					});	
+				}				
 			})
 			/*删除面试安排*/
 			.on('click', '.delete-arrange', function(e) {
 				e.preventDefault();
-				if(confirm('Are you sure to delete it?')) {
-					var $this = $(this)
-					$this.closest('.wrapper').slideUp('fast', function() {
-						$this.remove();
+				if(confirm('Are you sure to delete it?')) {					
+					$(this).closest('.wrapper').slideUp('fast', function() {						
+						$(this).find('input[data-provide="typeahead"]').typeahead('destroy');
+						$pannel = $(this).closest('.arrange-panel');
+						$(this).remove();
 						/*更新interview的下标的顺寻*/
-						$this.closest('.arrange-panel').trigger('update');
+						$pannel.trigger('update');						
 					});
 				}		
 			})

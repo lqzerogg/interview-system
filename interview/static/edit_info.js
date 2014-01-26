@@ -26,8 +26,8 @@ jQuery(function($) {
 				'text': 'Interviewer',
 				'name': 'interviewer',
 				'required': true,
-				'isInput': {					
-					'type': 'text',
+				'isCheckInList': {			
+					'validateName': 'for-validate',
 					'placeHolder': 'Alan'
 				}
 			},			
