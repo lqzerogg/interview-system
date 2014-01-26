@@ -35,7 +35,7 @@ div.none, input.none {
 
 /* 导航样式 */
 .scroll-spy {
-
+	width: 100%;
 }
 .navigator-container {
 	position: absolute;
