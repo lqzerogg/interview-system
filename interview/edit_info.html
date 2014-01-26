@@ -173,8 +173,9 @@
 									<div class="form-group">								
 										<label for="interviewer" class="col-sm-2 control-label">Interviewer</label>								
 										<div class="col-sm-10">																			
-											<input formnovalidate="formnovalidate" required="required" type="text" class="form-control interviewer" data-name="interviewer" name="interview[0][interviewer]" placeholder="Zhang Liang">																																			
+											<input data-source='{"zhangliange":"1", "liujun":"2"}' formnovalidate="formnovalidate" required="required" type="text" data-provide="typeahead" class="check-in-list form-control" placeholder="Zhang Liang">
 										</div>							
+										<input required="required" type="hidden" class="none interviewer" data-name="interviewer" name="interview[0][interviewer]" placeholder="Zhang Liang">
 									</div>					   							
 									<div class="form-group">								
 										<label for="interviewer-level" class="col-sm-2 control-label">Interviewer Level</label>								
@@ -242,6 +243,7 @@
 		<script src="static/jquery.js"></script>		
 		<script src="static/validate.js"></script>
 		<script src="static/bootstrap.js"></script>
+		<script src="static/bootstrap3-typeahead.js"></script>	
 		<script src="static/datetimepicker.js"></script>
 		<script src="static/base.js"></script>
 		<script src="static/mustache.js"></script>

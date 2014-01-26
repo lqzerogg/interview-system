@@ -74,6 +74,10 @@ jQuery(function($) {
 			}
 		]
 	};
-
+	$("#recruiter").typeahead({ source:['jack', 'rose'], 
+		updater: function(item) {			
+			return item;
+		}
+	});	
 	// $(document).addArrange(filedsView);	
 });
