@@ -18,7 +18,7 @@ jQuery(function($) {
 								{{/isDate}}\
 								{{#isCheckInList}}\
 									<div class="col-sm-10">\
-										<input data-name="for-validate-" autocomplete="off" formnovalidate="formnovalidate" {{#required}}required="required"{{/required}} type="text" data-provide="typeahead" class="check-in-list form-control" placeholder="{{placeHolder}}">\
+										<input data-name="{{validateName}}" autocomplete="off" formnovalidate="formnovalidate" {{#required}}required="required"{{/required}} type="text" data-provide="typeahead" class="check-in-list form-control" placeholder="{{placeHolder}}">\
 									</div>\
 									<input {{#required}}required="required"{{/required}} type="hidden" class="none {{label}}" data-name="{{name}}" name="">\
 								{{/isCheckInList}}\
@@ -87,7 +87,7 @@ jQuery(function($) {
 				    })
 				    /*更新typeahead插件*/
 				    .end().find('input[data-provide="typeahead"]').each(function() {
-						var map = $(this).closest('.data-source').data('source'),
+						var map = $(this).data('source') || $(this).closest('.data-source').data('source'),
 							sourceArray = [];
 						$.each(map, function(key) {
 							sourceArray.push(key);

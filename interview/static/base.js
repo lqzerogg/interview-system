@@ -58,7 +58,7 @@ jQuery(function($) {
 
 	/*自动完成功能的添加*/
 	$('input[data-provide="typeahead"]').each(function() {
-		var map = $(this).closest('.data-source').data('source'),
+		var map = $(this).data('source') || $(this).closest('.data-source').data('source'),
 			sourceArray = [];
 		$.each(map, function(key) {
 			sourceArray.push(key);
