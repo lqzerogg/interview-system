@@ -132,7 +132,28 @@ textarea {
 .file-wrapper .delete {
 	vertical-align: top;
 }
-
+.arranges dt {
+	clear: both;
+}
+.arranges dd {
+	margin-bottom: 10px;
+}
+.arranges .infos li {
+	float: left;
+	margin-left: 10px;
+}
+.arranges .infos {
+	margin: 0;
+}
+.arranges .title {
+	float: none;
+	display: inline;
+	width: auto;
+}
+.arranges .substance {
+	display: inline;
+	margin-left: 10px;
+}
 /* 响应式样式 */
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */

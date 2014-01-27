@@ -76,19 +76,20 @@
 							<!-- Default panel contents -->
 							<div class="panel-heading">Personal Info</div>
 							<div class="panel-body">
-							
-							<div class="form-group">
-								    <label for="name" class="col-sm-2 control-label">Recruiter</label>
-								    <div class="col-sm-10">
-								      <input autocomplete="off" formnovalidate="formnovalidate" type="text" class="form-control" name="recruiter" id="recruiter" placeholder="Recruiter" required="required">
-								    </div>
-								  </div>
-								  <div class="form-group">
+								
+								<div class="form-group">								
+									<label for="recruiter" class="col-sm-2 control-label">Recruiter</label>								
+									<div class="col-sm-10">																			
+										<input data-source='{"zhangliange":"1", "liujun":"2"}' name="recruiter[for-validate]" autocomplete="off" formnovalidate="formnovalidate" required="required" type="text" data-provide="typeahead" class="check-in-list form-control" placeholder="Zhang Liang">
+									</div>							
+									<input required="required" type="hidden" class="none recruiter" data-name="interviewer" name="recruiter" placeholder="Zhang Liang">
+								</div>									
+								<div class="form-group">
 								    <label for="name" class="col-sm-2 control-label">Name</label>
 								    <div class="col-sm-10">
 								      <input formnovalidate="formnovalidate" type="text" class="form-control" name="name" id="name" placeholder="name" required="required">
 								    </div>
-								  </div>
+								</div>
 								  
 								  <div class="form-group">
 								    <label for="age" class="col-sm-2 control-label">Age</label>
